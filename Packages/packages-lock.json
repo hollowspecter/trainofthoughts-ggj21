@@ -152,6 +152,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.uiextensions": {
+      "version": "https://bitbucket.org/UnityUIExtensions/unity-ui-extensions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1dbf2679fa4320c3d471c1c0fd7474c6fb954de6"
+    },
     "dev.yarnspinner.unity": {
       "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git",
       "depth": 0,
