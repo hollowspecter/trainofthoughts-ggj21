@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: -1271,-1104
 ---
-<< wait 1>> 
+<< wait 10>> 
 << fadeout Fader>>
 << wait 1>> 
 <<fadein Phoebe>>

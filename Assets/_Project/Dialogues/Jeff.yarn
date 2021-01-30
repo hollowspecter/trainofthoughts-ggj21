@@ -50,7 +50,7 @@ colorID: 0
 position: -924,-1167
 ---
 << cam outside 20>>
-<< wait 1>> 
+<< wait 10>> 
 << fadein Phoebe>>
 << fadein Jeff>>
 << wait 1>> 

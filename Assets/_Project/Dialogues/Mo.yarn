@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: -1171,-1172
 ---
-<< wait 1>> 
+<< wait 10>> 
 << fadeout Fader>>
 << wait 1>> 
 << fadein Mo>>

@@ -43,8 +43,9 @@ public class BreakingPlatform : MonoBehaviour
 		onBreak?.Invoke();
 		FMODUnity.RuntimeManager.PlayOneShot(soundEvent, transform.position);
 		shakable.gameObject.SetActive(false);
-		yield return new WaitForSeconds(5f);
+		yield return new WaitForSeconds(2f);
 		shakable.gameObject.SetActive(true);
 		collider.enabled = true;
+		isBreaking = false;
 	}
 }

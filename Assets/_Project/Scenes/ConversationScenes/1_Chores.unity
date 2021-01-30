@@ -5687,6 +5687,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 818380393}
     m_Modifications:
+    - target: {fileID: 1198929717278041116, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: m_text
+      value: 9am\nMorning Chores
+      objectReference: {fileID: 0}
     - target: {fileID: 2224489622612752931, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5729,6 +5733,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786011586255531708, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650976303391670893, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: m_fontSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650976303391670893, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: m_enableAutoSizing
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4526804339133951679, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
