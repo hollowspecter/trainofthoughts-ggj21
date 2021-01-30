@@ -22,6 +22,22 @@ public class CustomCommands : MonoBehaviour
 		dialogueRunner.AddCommandHandler("cam", ChangeCameraPrio);
 		dialogueRunner.AddCommandHandler("add_to_answer", AddWordsToTextBlock);
 		dialogueRunner.AddCommandHandler("end", EndScene);
+		dialogueRunner.AddCommandHandler("make", ChangeExpression);
+	}
+
+	// used like <<make Phoebe angry>>
+	private void ChangeExpression(string[] parameters)
+	{
+		// Go through each parameter and use it to find an object
+		if (RegisterObject.Database.TryGetValue(parameters[0], out var person))
+		{
+			var expression = person.GetComponent<Expression>();
+			expression.ChangeExpressionTo(parameters[1]);
+		}
+		else
+		{
+			Debug.LogError($"Was unable to find \"{parameters[0]}\", make sure you've attached a RegisterObject component!");
+		}
 	}
 
 	private void EndScene(string[] parameters)

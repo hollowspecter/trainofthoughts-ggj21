@@ -16,13 +16,15 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>6</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Default</value>
 			<value>Phoebe</value>
 			<value>Lucy</value>
 			<value>Mo</value>
+			<value>Mom</value>
+			<value>Jeff</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

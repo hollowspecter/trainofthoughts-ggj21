@@ -1630,6 +1630,7 @@ GameObject:
   - component: {fileID: 2224489623545000378}
   - component: {fileID: 2224489623545000381}
   - component: {fileID: 2224489623545000379}
+  - component: {fileID: 6993278351991660260}
   m_Layer: 5
   m_Name: Lucy
   m_TagString: Untagged
@@ -1684,7 +1685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7bd8e585ec239a843bfbdb1a69105861, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bf5de22e75c83a41a904d0b1dade092, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1708,6 +1709,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deactivateOnStart: 0
   fadeOutOnStart: 1
+--- !u!114 &6993278351991660260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2224489623545000383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotions:
+  - name: concerned
+    sprite: {fileID: 21300000, guid: 58a1710c64d797843bba4d959022e0fe, type: 3}
+  - name: smile
+    sprite: {fileID: 21300000, guid: c1bb6b439fc032840aaf381b5fde7fee, type: 3}
 --- !u!1 &2224489623573887098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,6 +2046,7 @@ GameObject:
   - component: {fileID: 2224489623828035506}
   - component: {fileID: 2224489623828035509}
   - component: {fileID: 2224489623828035507}
+  - component: {fileID: 7189315723333366799}
   m_Layer: 5
   m_Name: Phoebe
   m_TagString: Untagged
@@ -2082,7 +2101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d3686c2cf2411e748889708dab5b93cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b13538d6f5cb1eb4aaf1d007ad56afda, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2106,6 +2125,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deactivateOnStart: 0
   fadeOutOnStart: 1
+--- !u!114 &7189315723333366799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2224489623828035511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotions:
+  - name: angry
+    sprite: {fileID: 21300000, guid: 723e03f9fdbb48a4fb3b38389b441e5a, type: 3}
+  - name: annoyed
+    sprite: {fileID: 21300000, guid: 3bc72c9deaca675459c415ff21cb4664, type: 3}
+  - name: embarrassed
+    sprite: {fileID: 21300000, guid: 99fd99cdde7f9ee43a63da382411f1b5, type: 3}
+  - name: smile
+    sprite: {fileID: 21300000, guid: 33a752fd2bee13d4b856ba1d465436dd, type: 3}
+  - name: apologize
+    sprite: {fileID: 21300000, guid: 33a752fd2bee13d4b856ba1d465436dd, type: 3}
 --- !u!1 &2224489623829184943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2565,7 @@ GameObject:
   - component: {fileID: 3255511681580843312}
   - component: {fileID: 4843377099723563154}
   - component: {fileID: 6057917771704016110}
+  - component: {fileID: 367350448931574537}
   m_Layer: 5
   m_Name: Mo
   m_TagString: Untagged
@@ -2601,6 +2644,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deactivateOnStart: 0
   fadeOutOnStart: 1
+--- !u!114 &367350448931574537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943849205393491691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotions:
+  - name: happy
+    sprite: {fileID: 21300000, guid: 707d9571177a88547ac1c02a3d9a1035, type: 3}
+  - name: hungry
+    sprite: {fileID: 21300000, guid: 07bcab7be3d0ad74f8866fa6128ce297, type: 3}
+  - name: wtf
+    sprite: {fileID: 21300000, guid: 56bac6626734876488d25cd058cda3ab, type: 3}
 --- !u!1 &3570845885733339787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +2989,7 @@ GameObject:
   - component: {fileID: 3878246206786995850}
   - component: {fileID: 7738355432391268560}
   - component: {fileID: 176662176667490370}
+  - component: {fileID: 6113376177950679063}
   m_Layer: 5
   m_Name: Jeff
   m_TagString: Untagged
@@ -2950,7 +3013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -346, y: 247}
+  m_AnchoredPosition: {x: -346, y: 0}
   m_SizeDelta: {x: 692, y: 1092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3878246206786995850
@@ -2981,7 +3044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b99ea238aa9a3a54ebb100da16009e1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8174d8101f8cc66488374291d7f78c68, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3005,6 +3068,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deactivateOnStart: 0
   fadeOutOnStart: 1
+--- !u!114 &6113376177950679063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968762101819026403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotions: []
 --- !u!1 &7432898847997605168
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3093,7 @@ GameObject:
   - component: {fileID: 2988261414882556102}
   - component: {fileID: 191335890534077061}
   - component: {fileID: 7420819361510284661}
+  - component: {fileID: 7188091705251420209}
   m_Layer: 5
   m_Name: Mom
   m_TagString: Untagged
@@ -3040,7 +3117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -346, y: 247}
+  m_AnchoredPosition: {x: -346, y: 0}
   m_SizeDelta: {x: 692, y: 1092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2988261414882556102
@@ -3071,7 +3148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b99ea238aa9a3a54ebb100da16009e1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df9b88a2dbf39db48bcdd5ceb4a88b5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3095,6 +3172,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deactivateOnStart: 0
   fadeOutOnStart: 1
+--- !u!114 &7188091705251420209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432898847997605168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotions: []
 --- !u!1 &8415959004990467545
 GameObject:
   m_ObjectHideFlags: 0
