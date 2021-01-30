@@ -5,6 +5,8 @@ using UnityEngine;
 public class JumpPad : MonoBehaviour
 {
 	public float jumpForce = 20f;
+	[FMODUnity.EventRef]
+	public string soundEvent;
 
 	new Collider2D collider;
 
@@ -19,6 +21,8 @@ public class JumpPad : MonoBehaviour
 		{
 			if (collision.TryGetComponent<Rigidbody2D>(out var rigidbody))
 			{
+				FMODUnity.RuntimeManager.PlayOneShot(soundEvent, transform.position);
+				rigidbody.velocity = Vector2.zero;
 				rigidbody.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
 				collider.enabled = false;
 				rigidbody.GetComponent<Controller>().OnUseJumppad();

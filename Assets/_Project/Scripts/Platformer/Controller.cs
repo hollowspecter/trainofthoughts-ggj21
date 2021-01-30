@@ -26,6 +26,16 @@ public class Controller : MonoBehaviour
 	[SerializeField]
 	private float speedUpDamping = 0.5f;
 
+	[Header("Sounds")]
+	[FMODUnity.EventRef]
+	public string jumpSound;
+	[FMODUnity.EventRef]
+	public string landingSound;
+	[FMODUnity.EventRef]
+	public string fallThroughSound;
+	public FMODUnity.StudioEventEmitter slidingSound;
+	public FMODUnity.StudioEventEmitter speedZoneSound;
+
 	private new Rigidbody2D rigidbody;
 	private new Collider2D collider;
 	private float input;
@@ -36,6 +46,7 @@ public class Controller : MonoBehaviour
 	private bool inSpeedZone = false;
 
 	private float currentSpeed;
+	private bool wasGrounded;
 
 	private void Awake()
 	{
@@ -84,11 +95,13 @@ public class Controller : MonoBehaviour
 			if (input > 0f && slidingPlatform == null)
 			{
 				rigidbody.AddForce(jumpForce, ForceMode2D.Impulse);
+				FMODUnity.RuntimeManager.PlayOneShot(jumpSound);
 			}
 
 			// push through pervios platform
 			else if (input < 0f && perviosPlatform != null)
 			{
+				FMODUnity.RuntimeManager.PlayOneShot(fallThroughSound);
 				perviosPlatform.GoThrough();
 				rigidbody.AddForce(perviosPlatformExtraForce, ForceMode2D.Impulse);
 			}
@@ -120,6 +133,15 @@ public class Controller : MonoBehaviour
 			perviosPlatform = null;
 			slidingPlatform = null;
 		}
+
+		// landing sound
+
+		if (wasGrounded == false && isGrounded == true)
+		{
+			FMODUnity.RuntimeManager.PlayOneShot(landingSound);
+		}
+
+		wasGrounded = isGrounded;
 	}
 
 	void HandleInput()

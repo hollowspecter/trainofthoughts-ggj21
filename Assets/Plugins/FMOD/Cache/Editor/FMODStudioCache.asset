@@ -42,8 +42,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 15
+  MaxDistance: 50
   Length: 218
 --- !u!114 &-6906307510953560812
 MonoBehaviour:
@@ -82,7 +82,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476151514849031
+  lastModified: 637476158973264020
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -261,8 +261,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 15
+  MaxDistance: 50
   Length: 1964
 --- !u!114 &-859002827355747462
 MonoBehaviour:
@@ -340,7 +340,7 @@ MonoBehaviour:
   - {fileID: -6580188265306793086}
   StringsBanks:
   - {fileID: 4543454152569762745}
-  stringsBankWriteTime: 637476151514898992
+  stringsBankWriteTime: 637476158973314043
   cacheVersion: 6
 --- !u!114 &12986406827225362
 MonoBehaviour:
@@ -428,8 +428,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 15
+  MaxDistance: 50
   Length: 1760
 --- !u!114 &4033163628381202041
 MonoBehaviour:
@@ -514,7 +514,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476151514898992
+  lastModified: 637476158973314043
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -562,8 +562,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 15
+  MaxDistance: 50
   Length: 250
 --- !u!114 &4927230897661204117
 MonoBehaviour:

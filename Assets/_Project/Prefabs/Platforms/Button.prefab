@@ -61,6 +61,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   pushDownToPress: 1
+  soundEvent: event:/Platform Sounds/PressButton
 --- !u!58 &6322441984721705741
 CircleCollider2D:
   m_ObjectHideFlags: 0

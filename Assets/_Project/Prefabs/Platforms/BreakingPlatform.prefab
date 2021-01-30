@@ -4996,6 +4996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeUntilBreak: 0.5
   shakable: {fileID: 5905824863873394533}
+  soundEvent: event:/Platform Sounds/Breaking
   onBreak:
     m_PersistentCalls:
       m_Calls:

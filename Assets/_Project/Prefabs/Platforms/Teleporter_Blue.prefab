@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTo: {fileID: 5619613209462996914}
+  soundEvent: event:/Platform Sounds/Teleport
 --- !u!1 &5619613209462996915
 GameObject:
   m_ObjectHideFlags: 0

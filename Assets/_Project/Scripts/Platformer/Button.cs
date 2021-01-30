@@ -8,8 +8,9 @@ namespace Runner
 	public class Button : MonoBehaviour
 	{
 		public UnityEvent onButtonPress;
-
 		public bool pushDownToPress;
+		[FMODUnity.EventRef]
+		public string soundEvent;
 
 		bool inTrigger = false;
 		bool pushed = false;
@@ -32,6 +33,7 @@ namespace Runner
 				Debug.Log("Pushed " + gameObject.name);
 				onButtonPress?.Invoke();
 				pushed = true;
+				FMODUnity.RuntimeManager.PlayOneShot(soundEvent, transform.position);
 			}
 		}
 

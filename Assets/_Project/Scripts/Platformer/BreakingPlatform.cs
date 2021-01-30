@@ -10,6 +10,8 @@ public class BreakingPlatform : MonoBehaviour
 	float timeUntilBreak;
 	[SerializeField]
 	Transform shakable;
+	[FMODUnity.EventRef]
+	public string soundEvent;
 
 	public UnityEvent onBreak;
 
@@ -39,6 +41,7 @@ public class BreakingPlatform : MonoBehaviour
 		yield return new WaitForSeconds(timeUntilBreak);
 		collider.enabled = false;
 		onBreak?.Invoke();
+		FMODUnity.RuntimeManager.PlayOneShot(soundEvent, transform.position);
 		shakable.gameObject.SetActive(false);
 		yield return new WaitForSeconds(10f);
 
