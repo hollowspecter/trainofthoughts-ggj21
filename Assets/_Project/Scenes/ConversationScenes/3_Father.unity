@@ -216,11 +216,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: I do feel like that most of the time
+      value: "You know that I don\u2019t look at my phone when I\u2019m working,
+        Mom."
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
-      value: 22.05
+      value: 18.25
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_enableAutoSizing
@@ -269,6 +270,14 @@ PrefabInstance:
     - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
       value: I do feel like that most of the time
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
@@ -1332,11 +1341,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: it sure sounds like you wanted to say that!
+      value: You know, you could just wait till I call you back, instead of calling
+        again and again!
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
-      value: 22.05
+      value: 18.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_margin.y
+      value: -1.2254035
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_enableAutoSizing
@@ -1381,6 +1395,14 @@ PrefabInstance:
     - target: {fileID: 4392494846270840188, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
@@ -2323,7 +2345,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chores.Middle
+          m_StringArgument: Father.Middle
           m_BoolArgument: 1
         m_CallState: 2
   onExit:
@@ -2885,11 +2907,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: whatever, just take the trash outside on your way.
+      value: "just stop, okay?! I told you I don\u2019t want to speak to him anymore."
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
-      value: 22.05
+      value: 19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_margin.y
+      value: -1.6647837
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_enableAutoSizing
@@ -2934,6 +2960,14 @@ PrefabInstance:
     - target: {fileID: 4392494846270840188, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
@@ -3147,11 +3181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: alright, alright..later hun.
+      value: "I just don\u2019t care."
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
-      value: 23.95
+      value: 36.35
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_enableAutoSizing
@@ -3163,7 +3197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387438, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: setVariableTrue
-      value: $kiss
+      value: $whatever
       objectReference: {fileID: 0}
     - target: {fileID: 2509334889570624067, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3656,7 +3690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: "alright. Be careful outside, okay? We\u2019ll talk later."
+      value: "I know, okay? And I\u2019m glad you do."
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
@@ -3672,7 +3706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387438, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: setVariableTrue
-      value: $kiss
+      value: $thankful
       objectReference: {fileID: 0}
     - target: {fileID: 2509334889570624067, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4541,7 +4575,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chores.End
+          m_StringArgument: Father.End
           m_BoolArgument: 1
         m_CallState: 2
   onExit:
@@ -4634,7 +4668,7 @@ Transform:
   m_LocalScale: {x: 1, y: 55.244255, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1863532914
 GameObject:
@@ -4742,7 +4776,7 @@ Transform:
   m_LocalScale: {x: 1, y: 13.285981, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1876450292
 PrefabInstance:
@@ -5537,6 +5571,30 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 137235121}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -93.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99812037
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06128392
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856673, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: field of view
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f48f276447834c044b7f86704b800652, type: 3}
 --- !u!1001 &1331664200951577039
@@ -5632,11 +5690,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: love you ... ?
+      value: "Yes, I\u2019m glad I saw you calling just now. How are you?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSize
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387411, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_Name
       value: Text Block InGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331664202565387438, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: setVariableTrue
+      value: $happy
       objectReference: {fileID: 0}
     - target: {fileID: 2509334889570624067, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5674,6 +5744,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735891953952557605, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 7710798012858625959, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -5707,10 +5785,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2224489622764449402, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: startNode
+      value: Father.Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224489622764449402, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: yarnScripts.Array.data[0]
+      value: 
+      objectReference: {fileID: 2480198943629176163, guid: 600116fd49f797b45a88899a4073ff10, type: 3}
     - target: {fileID: 2224489622764449404, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
       propertyPath: debugTextView
       value: 
       objectReference: {fileID: 109208080}
+    - target: {fileID: 2224489622764449404, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: defaultVariables.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2786011586255531708, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5778,6 +5868,10 @@ PrefabInstance:
     - target: {fileID: 8415959004990467545, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
       propertyPath: m_Name
       value: Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415959004990467545, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20bac4a6a69c3604f967fa6c29a16543, type: 3}

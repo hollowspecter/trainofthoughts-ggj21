@@ -1,0 +1,95 @@
+title: Father.Start
+tags: 
+colorID: 0
+position: -1271,-1104
+---
+<< wait 1>> 
+<< fadeout Fader>>
+<< wait 1>> 
+<<fadein Phoebe>>
+<< wait 1>> 
+*The ringtone of "Steel Samurai" plays loudly*
+Phoebe: (Yes, my ringtone is from Phoenix Wright....)
+<< fadein Mom>>
+<< wait 1>> 
+Phoebe: (huh, my mum is calling) *picks up phone*
+Mom: Phoebe dear, glad I got through to you. I called you four times already!
+Phoebe: Mom..hey.
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<fadeout Mom>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker>>
+===
+title: Father.Middle
+tags: 
+colorID: 0
+position: -1053,-1106
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< fadein Mom>>
+<< wait 1>> 
+
+ANSWER_HERE
+Phoebe: What's up?
+
+<< if $happy is true>>
+Mom: Oh I'm fine dear, just fine. You know that I'm staying out of trouble for the time being.
+<< endif>> 
+
+Mom: I wanted to ask if you called your dad yet?
+Phoebe: Why would I want to call him, mom?
+Mom: Well, first of all, he is still your father, Phoebe!
+Mom: Second, he sent you quite a sum for your birthday, and it's ungrateful to not acknowledge that.
+Phoebe: Of course he told you already. I still don't get why you are even keeping in touch with him that much.
+Mom: As I told you, he is your father.. We don't talk much, but when we do, it's mostly about you. We care about you, Phoebe.
+Phoebe: Mom.. just..
+Phoebe: (ugh. the fuck mom.)
+Phoebe: (...)
+
+<< add_to_answer Mom.. just.. >> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<fadeout Mom>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker_middle>>
+===
+title: Father.End
+tags: 
+colorID: 0
+position: -839,-1111
+---
+<< cam outside 20>> 
+<< wait 1>> 
+<< fadein Phoebe>>
+<< fadein Mom>>
+<< wait 1>>
+
+ANSWER_HERE
+
+Phoebe: Mom, I have to go. Goodbye.
+*beep*
+
+<< fadeout Mom>>
+<< wait 1>>
+
+Phoebe: (..........)
+
+<< if $thankful is true>>
+Phoebe: *beep boop beep tippy tappy*
+Phoebe: "Hey.. thank you for your present the other day. It really helps. Hope you're fine Dad, Phoebe."
+<< elseif $whatever is true>>
+Phoebe: *beep boop beep tippy tappy*
+Phoebe: "Thanks for the money, Phoebe."
+<< else>>
+Phoebe: pff
+Phoebe: *puts phone away*
+<< endif>> 
+<< fadein Fader>>
+<< wait 1>> 
+<< end>>
+===
