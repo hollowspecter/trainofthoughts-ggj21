@@ -73,6 +73,7 @@ public class Controller : MonoBehaviour
 	void UpdateAnimator()
 	{
 		animator.SetBool("Grounded", isGrounded);
+		animator.SetBool("Sliding", slidingPlatform != null);
 	}
 
 	void HandleSpeedZone()
