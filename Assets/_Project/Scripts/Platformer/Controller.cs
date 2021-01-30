@@ -130,7 +130,7 @@ public class Controller : MonoBehaviour
 
 	void GroundCheck()
 	{
-		var hit = Physics2D.Raycast(groundCheckOrigin.position, Vector2.down, 0.2f, groundLayer);
+		var hit = Physics2D.Raycast(groundCheckOrigin.position, Vector2.down, 0.25f, groundLayer);
 		if (hit.collider != null)
 		{
 			isGrounded = true;
