@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
+using Yarn.Unity;
 
 public class TextBlock : MonoBehaviour
 {
 	public Image background;
 	public TextMeshProUGUI hoverText;
+	public string setVariableTrue = "";
 
 	private Color originalPanelColor;
 	private Color originalTextColor;
@@ -17,6 +19,7 @@ public class TextBlock : MonoBehaviour
 
 	private bool hoverVisible = false;
 	bool initialised = false;
+	private InMemoryVariableStorage memory;
 
 	private void Start()
 	{
@@ -28,8 +31,12 @@ public class TextBlock : MonoBehaviour
 		background.color = Color.clear;
 		hoverText.color = Color.clear;
 
+		hoverText.text = GetComponent<TextMeshPro>().text;
+
 		gameObject.SetActive(false);
 		initialised = true;
+
+		memory = FindObjectOfType<InMemoryVariableStorage>(true);
 	}
 
 	private void OnEnable()
@@ -46,24 +53,20 @@ public class TextBlock : MonoBehaviour
 		hoverVisible = true;
 	}
 
-	private void Update()
-	{
-		if (hoverVisible && renderer.isVisible)
-		{
-			HideHover();
-		}
-	}
-
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.CompareTag("Player"))
 		{
 			var text = GetComponent<TextMeshPro>().text;
 			TextBlocksPanel.Instance.AddNewWord(text);
+			if (string.IsNullOrWhiteSpace(setVariableTrue) == false)
+			{
+				memory.SetValue(setVariableTrue, true);
+			}
 		}
 	}
 
-	private void HideHover()
+	public void HideHover()
 	{
 		hoverVisible = false;
 		background.DOFade(0f, 0.5f);

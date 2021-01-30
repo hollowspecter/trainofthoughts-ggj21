@@ -1,7 +1,11 @@
 title: Chores.Start
 tags: 
-position: -466,-429
+colorID: 8
+position: -1073,-811
 ---
+<< wait 1>> 
+<< fadeout Fader>>
+<< wait 1>> 
 <<fadein Lucy>>
 <<wait 1>>
 Lucy: Hey Phoebe, did you take out the trash? #line:023fc9b
@@ -13,4 +17,70 @@ Lucy: It started to smell already, you promised to help more with the chores, re
 Phoebe: Well, since I'm sitting at home all day doing nothing, I can easily do more, isn't that what you wanna say?? #line:0a231b6
 Lucy: That's unfair Phoebe, you know that's not what I meant! #line:068899e
 Phoebe: Well, but.. #line:007a3cd
+Phoebe: (Oh no, what should I say?!)
+<< add_to_answer Well but ...>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<fadeout Lucy>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker>>
+===
+title: Chores.Middle
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< fadein Lucy>>
+<< wait 1>> 
+
+ANSWER_HERE
+Lucy: And I don't know what to make of it, if I'm being honest...
+
+<< wait 1>> 
+
+Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.
+Lucy: Let's talk later, alright?
+Phoebe: I.. well.. 
+Phoebe: (Oh boisies... hmmmmm...)
+
+<< add_to_answer I..well..>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<fadeout Lucy>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker_middle>>
+===
+title: Chores.End
+tags: 
+colorID: 0
+position: -618,-809
+---
+<< cam outside 20>> 
+<< wait 1>> 
+<< fadein Lucy>>
+<< fadein Phoebe>>
+<< wait 1>>
+
+ANSWER_HERE
+
+<< if $kiss is true>>
+Lucy: *leans in and gives Phoebe a kiss on the forehead*
+<< else>>
+Lucy: ...
+<< endif>>
+
+Lucy: *steps out of the house*
+<< fadeout Lucy>>
+<< wait 1>>
+Phoebe: ...
+<< wait 1>>
+
+<< fadein Fader>>
+<< wait 1>> 
+<< end>>
 ===
