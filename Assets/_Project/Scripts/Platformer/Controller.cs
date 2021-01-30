@@ -134,8 +134,19 @@ public class Controller : MonoBehaviour
 			slidingPlatform = null;
 		}
 
-		// landing sound
+		// sliding sound start
+		if (slidingPlatform != null &&
+			slidingSound.IsPlaying() == false)
+		{
+			slidingSound.Play();
+		}
+		else if (slidingPlatform == null &&
+			slidingSound.IsPlaying() == true)
+		{
+			slidingSound.Stop();
+		}
 
+		// landing sound
 		if (wasGrounded == false && isGrounded == true)
 		{
 			FMODUnity.RuntimeManager.PlayOneShot(landingSound);
@@ -157,5 +168,9 @@ public class Controller : MonoBehaviour
 	public void ToggleSpeedZone(bool value)
 	{
 		inSpeedZone = value;
+		if (value)
+			speedZoneSound.Play();
+		else
+			speedZoneSound.Stop();
 	}
 }
