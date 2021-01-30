@@ -20,6 +20,12 @@ public class Controller : MonoBehaviour
 	[SerializeField]
 	private Vector2 perviosPlatformExtraForce = new Vector2(0f, 0f);
 
+	[Header("SpeedZones")]
+	[SerializeField]
+	private float speedZoneSpeed = 30f;
+	[SerializeField]
+	private float speedUpDamping = 0.5f;
+
 	private new Rigidbody2D rigidbody;
 	private new Collider2D collider;
 	private float input;
@@ -27,11 +33,15 @@ public class Controller : MonoBehaviour
 	private PerviosPlatform perviosPlatform;
 	private bool usedJumpPad = false;
 	private SlidingPlatform slidingPlatform;
+	private bool inSpeedZone = false;
+
+	private float currentSpeed;
 
 	private void Awake()
 	{
 		rigidbody = GetComponent<Rigidbody2D>();
 		collider = GetComponent<Collider2D>();
+		currentSpeed = speed;
 	}
 
 	void Update()
@@ -42,12 +52,25 @@ public class Controller : MonoBehaviour
 	private void FixedUpdate()
 	{
 		GroundCheck();
+		HandleSpeedZone();
 		HandleMovement();
+	}
+
+	void HandleSpeedZone()
+	{
+		if (inSpeedZone)
+		{
+			currentSpeed = Mathf.Lerp(currentSpeed, speedZoneSpeed, Time.deltaTime * speedUpDamping);
+		}
+		else
+		{
+			currentSpeed = Mathf.Lerp(currentSpeed, speed, Time.deltaTime * speedUpDamping);
+		}
 	}
 
 	void HandleMovement()
 	{
-		Vector2 velocity = new Vector2(speed, rigidbody.velocity.y);
+		Vector2 velocity = new Vector2(currentSpeed, rigidbody.velocity.y);
 
 		if (isGrounded)
 		{
@@ -107,5 +130,10 @@ public class Controller : MonoBehaviour
 	public void OnUseJumppad()
 	{
 		usedJumpPad = true;
+	}
+
+	public void ToggleSpeedZone(bool value)
+	{
+		inSpeedZone = value;
 	}
 }
