@@ -1,0 +1,50 @@
+title: Mo.Start
+tags: 
+colorID: 0
+position: -1171,-1172
+---
+<< wait 1>> 
+<< fadeout Fader>>
+<< wait 1>> 
+<< fadein Mo>>
+<< wait 1>>
+<< fadein Phoebe>> 
+<< wait 1>> 
+Phoebe: Hey Mo, you little rascal.. You like chilling in the sun, don't you? #line:062b40d
+Mo: Mrreeow! ^__^  #line:0527f3d
+Phoebe: Yeah, I thought so. #line:0fa9f5f
+Mo: Miau. °_° #line:0fd8654
+Phoebe: You know I'm always..always.. #line:0a977b2
+Phoebe: (mhhhhh)
+<< add_to_answer You know I’m always >> 
+<<fadeout Phoebe>>
+<<fadeout Mo>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker>>
+===
+title: Mo.End
+tags: 
+colorID: 0
+position: -924,-1167
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< fadein Mo>>
+<< wait 1>> 
+
+ANSWER_HERE
+
+Mo: ..Meeow? *confused*
+<< if $happy is true>> 
+Phoebe: Exactly! *scratches him with a happy smile*
+<< else>> 
+Phoebe: I didn't really think you'd have an idea, all good Mo.. 
+<< endif>> 
+Phoebe: *scratches him, smiling absently*
+<< wait 3>>
+<< fadein Fader>>
+<< wait 1>> 
+<< end>>
+===

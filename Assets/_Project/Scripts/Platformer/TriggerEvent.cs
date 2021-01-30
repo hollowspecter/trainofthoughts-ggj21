@@ -8,6 +8,14 @@ public class TriggerEvent : MonoBehaviour
 	public UnityEvent onEnter;
 	public UnityEvent onExit;
 
+	private void Awake()
+	{
+		if (TryGetComponent<Renderer>(out var renderer))
+		{
+			renderer.enabled = false;
+		}
+	}
+
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.CompareTag("Player"))

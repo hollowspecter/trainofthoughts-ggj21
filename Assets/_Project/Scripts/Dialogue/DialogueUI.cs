@@ -301,6 +301,12 @@ namespace Yarn.Unity
 				text = line.ID;
 			}
 
+			// Replace answer
+			if (text == "ANSWER_HERE")
+			{
+				text = "Phoebe: " + TextBlocksPanel.Instance.CurrentAnswer;
+			}
+
 			// Fetch the name
 			int nameIndex = text.IndexOf(':');
 			if (nameIndex != -1)
@@ -322,6 +328,7 @@ namespace Yarn.Unity
 				FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Character", 0f);
 			}
 
+			// Show text
 			bool newWord = true;
 			if (textSpeed > 0.0f)
 			{
