@@ -15,6 +15,8 @@ public class Controller : MonoBehaviour
 	private float speed = 3f;
 	[SerializeField]
 	private float maxFallingSpeed = 10f;
+	[SerializeField]
+	private Animator animator;
 
 	[Header("Pervios Platforms")]
 	[SerializeField]
@@ -65,6 +67,12 @@ public class Controller : MonoBehaviour
 		GroundCheck();
 		HandleSpeedZone();
 		HandleMovement();
+		UpdateAnimator();
+	}
+
+	void UpdateAnimator()
+	{
+		animator.SetBool("Grounded", isGrounded);
 	}
 
 	void HandleSpeedZone()
@@ -94,6 +102,7 @@ public class Controller : MonoBehaviour
 			// jump up only when not sliding
 			if (input > 0f && slidingPlatform == null)
 			{
+				animator.SetTrigger("Jump");
 				rigidbody.AddForce(jumpForce, ForceMode2D.Impulse);
 				FMODUnity.RuntimeManager.PlayOneShot(jumpSound);
 			}

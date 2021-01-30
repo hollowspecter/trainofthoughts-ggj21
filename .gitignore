@@ -69,3 +69,7 @@ fmod.log
 fmod_editor.log
 
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+
+Assets/Cinemachine/CinemachineExamples.unitypackage.meta
+
+Assets/Cinemachine/Timeline/LegacyTimelineAPI.unitypackage.meta

@@ -253,6 +253,7 @@ MonoBehaviour:
   jumpForce: {x: 1, y: 20}
   speed: 10
   maxFallingSpeed: 20
+  animator: {fileID: 2684930797578200822}
   perviosPlatformExtraForce: {x: 0, y: 0}
   speedZoneSpeed: 30
   speedUpDamping: 0.5
