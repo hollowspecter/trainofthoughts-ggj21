@@ -12,6 +12,8 @@ public class Controller : MonoBehaviour
 	private Vector2 jumpForce = new Vector2(10f, 20f);
 	[SerializeField]
 	private float speed = 3f;
+	[SerializeField]
+	private float maxFallingSpeed = 10f;
 
 	private new Rigidbody2D rigidbody;
 	private new Collider2D collider;
@@ -39,6 +41,7 @@ public class Controller : MonoBehaviour
 	{
 		Vector2 velocity = new Vector2(speed, rigidbody.velocity.y);
 
+		// push forward
 		if (isGrounded)
 		{
 			rigidbody.velocity = velocity;
@@ -46,6 +49,12 @@ public class Controller : MonoBehaviour
 			{
 				rigidbody.AddForce(jumpForce, ForceMode2D.Impulse);
 			}
+		}
+
+		// limit falling speed
+		if (rigidbody.velocity.y < -maxFallingSpeed)
+		{
+			rigidbody.velocity = new Vector2(rigidbody.velocity.x, -maxFallingSpeed);
 		}
 	}
 
