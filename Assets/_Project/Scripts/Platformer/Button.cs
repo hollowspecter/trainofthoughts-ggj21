@@ -3,53 +3,56 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Button : MonoBehaviour
+namespace Runner
 {
-	public UnityEvent onButtonPress;
-
-	public bool pushDownToPress;
-
-	bool inTrigger = false;
-	bool pushed = false;
-
-	private void Update()
+	public class Button : MonoBehaviour
 	{
-		if (inTrigger)
+		public UnityEvent onButtonPress;
+
+		public bool pushDownToPress;
+
+		bool inTrigger = false;
+		bool pushed = false;
+
+		private void Update()
 		{
-			if (Input.GetAxisRaw("Vertical") < 0f)
+			if (inTrigger)
 			{
-				PushButton();
+				if (Input.GetAxisRaw("Vertical") < 0f)
+				{
+					PushButton();
+				}
 			}
 		}
-	}
 
-	public void PushButton()
-	{
-		if (!pushed)
+		public void PushButton()
 		{
-			Debug.Log("Pushed " + gameObject.name);
-			onButtonPress?.Invoke();
-			pushed = true;
-		}
-	}
-
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if (collision.CompareTag("Player"))
-		{
-			inTrigger = true;
-			if (pushDownToPress == false)
+			if (!pushed)
 			{
-				PushButton();
+				Debug.Log("Pushed " + gameObject.name);
+				onButtonPress?.Invoke();
+				pushed = true;
 			}
 		}
-	}
 
-	private void OnTriggerExit2D(Collider2D collision)
-	{
-		if (collision.CompareTag("Player"))
+		private void OnTriggerEnter2D(Collider2D collision)
 		{
-			inTrigger = false;
+			if (collision.CompareTag("Player"))
+			{
+				inTrigger = true;
+				if (pushDownToPress == false)
+				{
+					PushButton();
+				}
+			}
+		}
+
+		private void OnTriggerExit2D(Collider2D collision)
+		{
+			if (collision.CompareTag("Player"))
+			{
+				inTrigger = false;
+			}
 		}
 	}
 }

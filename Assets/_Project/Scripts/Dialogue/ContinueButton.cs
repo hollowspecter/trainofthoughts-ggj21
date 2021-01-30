@@ -10,7 +10,13 @@ public class ContinueButton : MonoBehaviour
 	private void Awake()
 	{
 		button = GetComponent<UnityEngine.UI.Button>();
+	}
 
-
+	private void Update()
+	{
+		if (Input.anyKeyDown)
+		{
+			button.onClick?.Invoke();
+		}
 	}
 }
