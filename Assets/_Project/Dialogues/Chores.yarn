@@ -12,11 +12,15 @@ Lucy: Hey Phoebe, did you take out the trash? #line:023fc9b
 <<fadein Phoebe>>
 <<wait 1>>
 Phoebe: No, I'm still sitting in my chair, are you blind? #line:0f01a61
+<<make Phoebe annoyed>>
 Lucy:  Aw come on, don't be like that..  #line:0a6d4fe
+<<make Phoebe normal>>
 Lucy: It started to smell already, you promised to help more with the chores, remember..? #line:0b848f2
+<<make Phoebe annoyed>>
 Phoebe: Well, since I'm sitting at home all day doing nothing, I can easily do more, isn't that what you wanna say?? #line:0a231b6
 Lucy: That's unfair Phoebe, you know that's not what I meant! #line:068899e
 Phoebe: Well, but.. #line:007a3cd
+<<make Phoebe apologize>>
 Phoebe: (Oh no, what should I say?!)
 << add_to_answer Well but ...>> 
 <<deactivate DialogueCanvas>>
@@ -39,9 +43,9 @@ position: -846,-810
 
 ANSWER_HERE
 Lucy: And I don't know what to make of it, if I'm being honest...
-
+<<make Phoebe normal>>
 << wait 1>> 
-
+<<make Lucy concerned>>
 Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.
 Lucy: Let's talk later, alright?
 Phoebe: I.. well.. 
@@ -62,6 +66,7 @@ position: -618,-809
 ---
 << cam outside 20>> 
 << wait 1>> 
+<<make Lucy normal>>
 << fadein Lucy>>
 << fadein Phoebe>>
 << wait 1>>
@@ -69,7 +74,9 @@ position: -618,-809
 ANSWER_HERE
 
 << if $kiss is true>>
+<<make Lucy smile>>
 Lucy: *leans in and gives Phoebe a kiss on the forehead*
+<<make Phoebe smile>>
 << else>>
 Lucy: ...
 << endif>>
@@ -78,6 +85,7 @@ Lucy: *steps out of the house*
 << fadeout Lucy>>
 << wait 1>>
 Phoebe: ...
+<<make Phoebe annoyed>>
 << wait 1>>
 
 << fadein Fader>>
