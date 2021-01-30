@@ -17,26 +17,27 @@ public class TextBlock : MonoBehaviour
 
 	private new MeshRenderer renderer;
 
-	private bool hoverVisible = false;
 	bool initialised = false;
 	private InMemoryVariableStorage memory;
 
 	private void Start()
 	{
 		renderer = GetComponent<MeshRenderer>();
-
-		originalPanelColor = background.color;
-		originalTextColor = hoverText.color;
-
-		background.color = Color.clear;
-		hoverText.color = Color.clear;
-
-		hoverText.text = GetComponent<TextMeshPro>().text;
-
-		gameObject.SetActive(false);
-		initialised = true;
-
 		memory = FindObjectOfType<InMemoryVariableStorage>(true);
+
+		if (hoverText != null)
+		{
+			originalPanelColor = background.color;
+			originalTextColor = hoverText.color;
+
+			background.color = Color.clear;
+			hoverText.color = Color.clear;
+
+			hoverText.text = GetComponent<TextMeshPro>().text;
+
+			gameObject.SetActive(false);
+			initialised = true;
+		}
 	}
 
 	private void OnEnable()
@@ -44,13 +45,14 @@ public class TextBlock : MonoBehaviour
 		if (!initialised)
 			return;
 
-		background.color = originalPanelColor;
-		background.DOFade(1f, 0.5f).From(0f);
+		if (hoverText != null)
+		{
+			background.color = originalPanelColor;
+			background.DOFade(1f, 0.5f).From(0f);
 
-		hoverText.color = originalTextColor;
-		hoverText.DOFade(1f, 0.5f).From(0f);
-
-		hoverVisible = true;
+			hoverText.color = originalTextColor;
+			hoverText.DOFade(1f, 0.5f).From(0f);
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D collision)
@@ -68,7 +70,6 @@ public class TextBlock : MonoBehaviour
 
 	public void HideHover()
 	{
-		hoverVisible = false;
 		background.DOFade(0f, 0.5f);
 		hoverText.DOFade(0f, 0.5f);
 	}

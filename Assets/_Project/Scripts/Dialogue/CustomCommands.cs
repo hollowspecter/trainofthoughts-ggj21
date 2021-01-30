@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Yarn.Unity;
 using DG.Tweening;
@@ -25,6 +26,7 @@ public class CustomCommands : MonoBehaviour
 
 	private void EndScene(string[] parameters)
 	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 	private void AddWordsToTextBlock(string[] parameters)
