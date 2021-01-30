@@ -55,7 +55,8 @@ namespace Yarn.Unity
 			{"Phoebe", 1f },
 			{"Lucy", 2f },
 			{"Mo", 3f },
-			{"Mom", 4f }
+			{"Mom", 4f },
+			{"Jeff", 5f }
 		};
 
 		/// <summary>
