@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: 600116fd49f797b45a88899a4073ff10
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Father-Father.Start-0
+  - Father-Father.Start-1
+  - Father-Father.Start-2
+  - Father-Father.Start-3
+  - Father-Father.Start-4
+  - Father-Father.Middle-5
+  - Father-Father.Middle-6
+  - Father-Father.Middle-7
+  - Father-Father.Middle-8
+  - Father-Father.Middle-9
+  - Father-Father.Middle-10
+  - Father-Father.Middle-11
+  - Father-Father.Middle-12
+  - Father-Father.Middle-13
+  - Father-Father.Middle-14
+  - Father-Father.Middle-15
+  - Father-Father.Middle-16
+  - Father-Father.End-17
+  - Father-Father.End-18
+  - Father-Father.End-19
+  - Father-Father.End-20
+  - Father-Father.End-21
+  - Father-Father.End-22
+  - Father-Father.End-23
+  - Father-Father.End-24
+  - Father-Father.End-25
+  - Father-Father.End-26
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

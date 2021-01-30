@@ -77,8 +77,11 @@ public class CustomCommands : MonoBehaviour
 		{
 			if (RegisterObject.Database.TryGetValue(parameters[i], out var objectToFade))
 			{
-				var image = objectToFade.GetComponent<Image>();
-				image.DOFade(0f, 1f);
+				if (objectToFade != null)
+				{
+					var image = objectToFade.GetComponent<Image>();
+					image.DOFade(0f, 1f);
+				}
 			}
 			else
 			{
