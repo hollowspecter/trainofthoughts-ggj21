@@ -1,7 +1,7 @@
 title: Mo.Start
 tags: 
 colorID: 0
-position: -1171,-1170
+position: -1171,-1172
 ---
 << wait 1>> 
 << fadeout Fader>>
@@ -9,7 +9,7 @@ position: -1171,-1170
 << fadein Mo>>
 << wait 1>>
 << fadein Phoebe>> 
-<< wait 1>> >> 
+<< wait 1>> 
 Phoebe: Hey Mo, you little rascal.. You like chilling in the sun, don't you? #line:062b40d
 Mo: Mrreeow! ^__^  #line:0527f3d
 Phoebe: Yeah, I thought so. #line:0fa9f5f
