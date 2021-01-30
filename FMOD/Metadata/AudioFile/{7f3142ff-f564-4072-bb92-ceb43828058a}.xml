@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7f3142ff-f564-4072-bb92-ceb43828058a}">
+		<property name="assetPath">
+			<value>BB Discount Kalimba Samples/TINE Ab4_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.7181859410430835</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>

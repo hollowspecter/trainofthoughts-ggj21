@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{db361c8e-a330-4f3b-8ec8-a4b23b22c947}">
+		<property name="assetPath">
+			<value>BB - Mouth Sounds/Guonk 7.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.43231292517006803</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>

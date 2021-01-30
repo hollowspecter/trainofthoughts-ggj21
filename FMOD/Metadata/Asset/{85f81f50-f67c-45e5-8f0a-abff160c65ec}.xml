@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{85f81f50-f67c-45e5-8f0a-abff160c65ec}">
+		<property name="assetPath">
+			<value>BB Discount Kalimba Samples/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{cc038810-95e2-4416-a0c4-eaa78e520d0e}">
+		<property name="assetPath">
+			<value>Micro Pack - Organic Wooshes/Micro Pack - Organic Wooshes/Classic Swish 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5022448979591837</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>

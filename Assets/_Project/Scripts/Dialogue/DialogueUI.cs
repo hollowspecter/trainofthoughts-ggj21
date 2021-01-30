@@ -49,6 +49,13 @@ namespace Yarn.Unity
 	/// <seealso cref="DialogueRunner"/>
 	public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 	{
+		private Dictionary<string, float> npcLUT = new Dictionary<string, float>
+		{
+			{"Default", 0f },
+			{"Phoebe", 1f },
+			{"Lucy", 2f },
+			{"Mo", 3f }
+		};
 
 		/// <summary>
 		/// The object that contains the dialogue and the options.
@@ -253,6 +260,7 @@ namespace Yarn.Unity
 
 		public DialogueRunner.StringUnityEvent onLeftName;
 		public DialogueRunner.StringUnityEvent onRightName;
+		public FMODUnity.StudioEventEmitter talkingEmitter;
 
 
 		internal void Awake()
@@ -306,13 +314,15 @@ namespace Yarn.Unity
 				{
 					onRightName.Invoke(name);
 				}
+				FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Character", npcLUT[name]);
 				text = text.Substring(nameIndex + 2);
 			}
 			else
 			{
-				//LineUI.Instance.SwitchFont("");
+				FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Character", 0f);
 			}
 
+			bool newWord = true;
 			if (textSpeed > 0.0f)
 			{
 				// Display the line one character at a time
@@ -320,6 +330,19 @@ namespace Yarn.Unity
 
 				foreach (char c in text)
 				{
+					if (newWord)
+					{
+						talkingEmitter.Play();
+						newWord = false;
+					}
+					else
+					{
+						if (string.IsNullOrWhiteSpace(c.ToString()))
+						{
+							newWord = true;
+						}
+					}
+
 					stringBuilder.Append(c);
 					onLineUpdate?.Invoke(stringBuilder.ToString());
 					if (userRequestedNextLine)

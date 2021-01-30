@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DataFile" id="{652f0647-612d-4850-8406-6346759c8506}">
+		<property name="assetPath">
+			<value>Micro Pack - Cat Meows/Micro Pack - Cat Meows/_README.txt</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>

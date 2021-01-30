@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DataFile" id="{f048e06f-5656-43fb-8fad-5792c352265e}">
+		<property name="assetPath">
+			<value>Micro Pack - Organic Wooshes/Micro Pack - Organic Wooshes/_README.txt</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5db9e22c-913f-4d41-9a6b-d9440a65ec71}</destination>
+		</relationship>
+	</object>
+</objects>
