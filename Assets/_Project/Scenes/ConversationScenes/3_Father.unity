@@ -7733,27 +7733,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -30.200005
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -93.38
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99812037
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.06128392
       objectReference: {fileID: 0}
     - target: {fileID: 152656936610856673, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f48f276447834c044b7f86704b800652, type: 3}
