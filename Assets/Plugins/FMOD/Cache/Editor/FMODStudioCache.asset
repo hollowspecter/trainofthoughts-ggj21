@@ -207,6 +207,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 75692
+--- !u!114 &-4307814378305965390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/PickupText
+  m_EditorClassIdentifier: 
+  Path: event:/Character/PickupText
+  guid: 357bc3902dffba4982cd21c25d1097ee
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5114
 --- !u!114 &-3472007584326946337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +245,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476990583246838
+  lastModified: 637477006684862346
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -305,12 +328,13 @@ MonoBehaviour:
   - {fileID: 919117865362839532}
   - {fileID: 3656622528033457040}
   - {fileID: -7604942454863834163}
+  - {fileID: -4307814378305965390}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3472007584326946337}
   StringsBanks:
   - {fileID: 3977697902123831676}
-  stringsBankWriteTime: 637476990583326840
+  stringsBankWriteTime: 637477006684932360
   cacheVersion: 6
 --- !u!114 &919117865362839532
 MonoBehaviour:
@@ -419,11 +443,11 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476990583326840
+  lastModified: 637477006684932360
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1704
+    Value: 1744
   Exists: 1
 --- !u!114 &6813473560135772774
 MonoBehaviour:
