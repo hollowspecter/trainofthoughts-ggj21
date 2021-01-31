@@ -21,28 +21,32 @@ Mo: Mau
 Phoebe: Not now, Mo, you damn catboy! ...
 Phoebe: Uhm, good. I guess. 
 Jeff: Alright. Okay. I am calling because of the last article. It has come to my attention that you did not send it to me yet. 
+<<make Mo happy>>
 Mo: Mauuuuu
+<<make Phoebe annoyed>>
 Phoebe: Mo, I'm working. You get your food later! ...
+<<make Phoebe normal>>
+<<fadeout Mo>>
+<<wait 0.5>>
 Phoebe: What did you say, Jeff?
 Jeff: You did not send me the proofreading.
 Phoebe: So...?
+<<make Jeff bossy>>
 Jeff: Could you please focus for a second! Do you have any problems with the text? 
 Phoebe:  No, of course not. This is my fucking job. Why would I have any problems? 
-<<fadeout Mo>>
-<<wait 0.5>>
 Jeff: Then, why did you not send the article to me? The deadline was yesterday. Are you just playing around at home, kid?
 Phoebe: Wha-
+<<make Phoebe angry>>
 Phoebe: Don't call me a fucking kid, Jeff.
+<<make Phoebe normal>>
 Phoebe: No, it’s just...
+<<make Phoebe embarrassed>>
 Phoebe: (It's just what Phoebe? Shit, I just cursed. That's not good.)
 Phoebe: It's just...     RGH)
 
 << add_to_answer It's just>> 
 <<fadeout Phoebe>>
 <<fadeout Jeff>>
-<<fadeout Backdrop>>
-<<wait 1>>
-<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
@@ -53,8 +57,7 @@ colorID: 0
 position: -924,-1167
 ---
 << cam outside 20>>
-<<fadein Backdrop>>
-<< wait 1>> 
+<< wait 10>> 
 << fadein Phoebe>>
 << fadein Jeff>>
 << wait 1>> 
@@ -62,34 +65,47 @@ position: -924,-1167
 ANSWER_HERE
 
 <<if $open is true>>
+<<make Phoebe embarrassed>>
 Phoebe: The pandemic makes me feel like shit, but I’m, I’m really trying my best.
 Jeff: Hm… I see.
+<<make Jeff nice>>
 Jeff: Good thing the pandemic originated from China, so it won't last long, haha...
 Jeff: Ha... Uhm, but yeah...
+<<make Jeff normal>>
 Jeff: I know, the pandemic takes a toll on all of us. This article needs to be finished by tomorrow but let me know if you need any support. I think...
 Jeff: Yeah, I could give Susanne parts of the article to read if that would help you.
+<<make Phoebe annoyed>>
 Phoebe: No need to get racist, but...
+<<make Phoebe normal>>
 Phoebe: Thanks, Jeff. That would actually be great. Your joke was still not funny though. 
-Jeff: Alright, alright. I didn't mean it like that. Take care. 
+Jeff: Alright, alright. I didn't mean it like that. Take care.
+<<make Phoebe apologize>>
 Phoebe: Yeah. Bye.
 
 <<elseif $shy is true>>
+<<make Phoebe embarrassed>>
 Phoebe: But, yeah... It's almost done anyways, so...
 Jeff: Hm. I get this, but maybe push a little harder. 
 Phoebe: I don’t think...
+<<make Phoebe annoyed>>
 Phoebe: forget it.
 Jeff: Well, I can give you until tomorrow.
+<<make Jeff bossy>>
 Jeff: But I need you to organize a little better. Lately this happens more often.
 Jeff: We can’t get lazy just because we're home alone, Phoebe.
-Phoebe: Sure, Jeff. I'll send it to you tomorrow. 
+Phoebe: Sure, Jeff. I'll send it to you tomorrow.
+<<make Jeff normal>>
 Jeff: Alright. Good luck! 
 
 <<else>>
+<<make Phoebe angry>>
 Phoebe: If you wouldn't constantly be bugging me about this, it might have been finished already. Alright?!
+<<make Jeff bossy>>
 Jeff: Ey! No need to get cocky with me.
 Jeff: You millenials always think you can just start whining and push your responsibilities onto someone else.
 Jeff: Your projects have been late for a whole month! A <i>month!</i>
 Jeff: Get your shit together, Phoebe, or your behavior will have serious consequences.
+<<make Phoebe annoyed>>
 Phoebe: Sure. Whatever.
 
 <<endif>>
