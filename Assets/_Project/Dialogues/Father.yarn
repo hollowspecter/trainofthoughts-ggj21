@@ -45,13 +45,11 @@ Mom: Oh I'm fine dear, just fine. You know that I'm staying out of trouble for t
 << endif>> 
 
 Mom: I wanted to ask if you called your dad yet?
-<<make Phoebe annoyed>>
 Phoebe: Why would I want to call him, mom?
 Mom: Well, first of all, he is still your father, Phoebe!
 Mom: Second, he sent you quite a sum for your birthday, and it's ungrateful to not acknowledge that.
 Phoebe: Of course he told you already. I still don't get why you are even keeping in touch with him that much.
 Mom: As I told you, he is your father.. We don't talk much, but when we do, it's mostly about you. We care about you, Phoebe.
-<<make Phoebe embarrassed>>
 Phoebe: Mom.. just..
 Phoebe: (ugh. the fuck mom.)
 Phoebe: (...)
