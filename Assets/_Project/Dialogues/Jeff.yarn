@@ -47,9 +47,14 @@ Phoebe: It's just...     RGH)
 << add_to_answer It's just>> 
 <<fadeout Phoebe>>
 <<fadeout Jeff>>
+<<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
+
+
 ===
 title: Jeff.End
 tags: 
