@@ -3082,7 +3082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8174d8101f8cc66488374291d7f78c68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d9dc3cccb1fb50448b99600cdb93460, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3118,7 +3118,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a6dcab7e518fe4588fd630984136c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emotions: []
+  emotions:
+  - name: bossy
+    sprite: {fileID: 21300000, guid: 924497cc7f2bde44eb3373876c4311d6, type: 3}
+  - name: nice
+    sprite: {fileID: 21300000, guid: d44f3f0ed55ee32419656eb167f40283, type: 3}
 --- !u!1 &7432898847997605168
 GameObject:
   m_ObjectHideFlags: 0

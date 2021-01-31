@@ -199,7 +199,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476869731933039
+  lastModified: 637476884002934091
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -257,13 +257,37 @@ MonoBehaviour:
   - {fileID: -7034540668233537491}
   - {fileID: -5465779412082578564}
   - {fileID: 3947768031096794283}
+  - {fileID: 919117865362839532}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3472007584326946337}
   StringsBanks:
   - {fileID: 3977697902123831676}
-  stringsBankWriteTime: 637476869731983049
+  stringsBankWriteTime: 637476884002974096
   cacheVersion: 6
+--- !u!114 &919117865362839532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Chilly
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Chilly
+  guid: 04c68b621bf957459d31def8ee719ce1
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 96026
 --- !u!114 &1676016509487631112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,11 +349,11 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476869731983049
+  lastModified: 637476884002974096
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1568
+    Value: 1604
   Exists: 1
 --- !u!114 &6813473560135772774
 MonoBehaviour:
