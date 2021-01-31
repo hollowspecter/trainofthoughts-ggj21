@@ -19,6 +19,7 @@ Phoebe: (mhhhhh)
 << add_to_answer You know I’m always >> 
 <<fadeout Phoebe>>
 <<fadeout Mo>>
+<<fadeout Backdrop>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
@@ -29,6 +30,7 @@ colorID: 0
 position: -924,-1167
 ---
 << cam outside 20>>
+<<fadein Backdrop>>
 << wait 1>> 
 << fadein Phoebe>>
 << fadein Mo>>

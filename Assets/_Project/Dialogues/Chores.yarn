@@ -24,6 +24,7 @@ Phoebe: Well, but.. #line:007a3cd
 Phoebe: (Oh no, what should I say?!)
 << add_to_answer Well but ...>> 
 <<deactivate DialogueCanvas>>
+<<fadeout Backdrop>>
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
 <<cam outside 0>>
@@ -36,6 +37,7 @@ colorID: 0
 position: -846,-810
 ---
 << cam outside 20>>
+<<fadein Backdrop>>
 << wait 1>> 
 << fadein Phoebe>>
 << fadein Lucy>>
@@ -55,6 +57,7 @@ Phoebe: (Oh boisies... hmmmmm...)
 <<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
+<<fadeout Backdrop>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker_middle>>
@@ -65,6 +68,7 @@ colorID: 0
 position: -618,-809
 ---
 << cam outside 20>> 
+<<fadein Backdrop>>
 << wait 1>> 
 <<make Lucy normal>>
 << fadein Lucy>>
