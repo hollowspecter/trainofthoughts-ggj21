@@ -134,6 +134,8 @@ Phoebe: ...
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
 << fadein Fader>>
+<< wait 1>>
+<< fadein Livingroom>>
 << wait 3>>
 <<fadeout Fader>>
 <<wait 1>>
@@ -181,6 +183,7 @@ Lucy: But I want to be there. Even if you only need a hot beverage and maybe a c
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
 <<fadeout Backdrop>>
+<<fadeout Livingroom>>
 <<wait 1>>
 <<deactivate DialogueCanvas>>
 <<cam outside 0>>
@@ -193,7 +196,7 @@ colorID: 0
 position: -618,-809
 ---
 << cam outside 20>> 
-<<fadein Backdrop>>
+<<fadein Livingroom>>
 << wait 1>> 
 <<make Lucy normal>>
 << fadein Lucy>>
@@ -228,8 +231,42 @@ Lucy: I love you, penguin.
 
 
 <<else>>
+<<make Phoebe smile>>
+Phoebe: What do you think, Lucy? 
+<<make Lucy normal>>
+Lucy: I think we deserve some us-time. 
+<<make Lucy smile>>
+Lucy: We fell in love in October and I remember ice skating. It was so much fun!
+<<make Phoebe normal>>
+Phoebe: And fucking freezing.
+Lucy: I know. And you slipped and slithered across the ice rink on your cute little penguin butt.
+<<make Phoebe annoyed>>
+Phoebe: It was all your fault! 
+<<make Lucy normal>>
+Lucy: How was that my fault?
+Phoebe: I...
+<<make Phoebe embarrassed>>
+Phoebe: I just couldn’t look away from you. 
+Phoebe: I love you, Lucy. 
+Phoebe: And I want to see the world with you. Not in a two weeks vacation. 
+Phoebe: I want to really see it and travel to all the icy places. 
+Phoebe: I want to drink hot chocolate in Iceland and kiss you in a snowstorm in the Alps.
+<<make Lucy smile>>
+Lucy: And throw a snowball at you in norway! 
+<<make Phoebe smile>>
+Phoebe: Yes. I want that. 
+Lucy: I want that too, penguin. 
+<<make Phoebe embarrassed>>
+Phoebe: But I don’t want you to think that I’m running away.
+<<make Phoebe normal>>
+<<make Lucy normal>>
+Phoebe: Snow was always my happy place. 
+Phoebe: And I think I need to make my mind a happy place again. 
 
-
+<<wait 1>>
+<<make Phoebe embarrassed>>
+<<make Lucy smile>>
+<<wait 1>>
 <<endif>>
 
 
