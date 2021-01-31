@@ -48,6 +48,10 @@ Phoebe: (............)
 <<wait 3>>
 <<deactivate StartBlocker>>
 ===
+
+
+
+
 title: Break.Middle
 tags: 
 colorID: 0
@@ -61,16 +65,61 @@ position: -846,-810
 << wait 1>> 
 
 ANSWER_HERE
-Lucy: And I don't know what to make of it, if I'm being honest...
-<<make Phoebe normal>>
-<< wait 1>> 
-<<make Lucy concerned>>
-Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.
-Lucy: Let's talk later, alright?
-Phoebe: I.. well.. 
-Phoebe: (Oh boisies... hmmmmm...)
 
-<< add_to_answer I..well..>> 
+<<if $reflecting is true>>
+Phoebe: Please, just give me like 20 minutes to calm down. 
+Phoebe: I love you, Lucy, it’s just a lot right now.
+Lucy: Okay. 
+Lucy: It’s okay. 
+Lucy: I get you. 
+Lucy: Let’s talk whenever you are ready. 
+Phoebe: I love you, otter.
+Lucy: I love you too. 
+Lucy: Tea?
+Phoebe: That would be awesome. 
+Phoebe: Thank you.
+
+<<elseif $frustrated is true>>
+Phoebe: Just leave me alone, Lucy.
+Lucy: ...
+Lucy: You can be so stubborn. 
+Lucy: Maybe just talk to me?
+Lucy: I don’t expect you to be a poet, but... don’t shut me out like this. 
+Phoebe: ...
+Lucy: I’ll make some tea. 
+Lucy: Join me, when you feel ready. 
+
+<<else>>
+Phoebe: And you never think about me and what I want! 
+Phoebe: Get out of my office, Lucy!
+Lucy: What?!
+Lucy: I'm just trying to help! 
+Phoebe: Yeah, well, you are not! 
+Lucy: Do you think it's fun to always see you struggling?
+Lucy: To see how you let yourself down? 
+Lucy: I'm trying so hard to make you feel better and all I get is this angry frustration. 
+Lucy: I deserve better, Phoebe!
+Lucy: You deserve better!
+Phoebe: ...
+
+<<endif>>
+
+<<fadeout Phoebe>>
+<<fadeout Lucy>>
+<< fadein Fader>>
+<< wait 3>>
+<<fadeout Fader>>
+<<wait 1>>
+... a little later, in the living room...
+<<wait 1>>
+<<fadein Phoebe>>
+<<fadein Lucy>>
+<<wait 1>>
+
+SECOND PART OF MIDDLE
+
+
+
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
 <<fadeout Backdrop>>
