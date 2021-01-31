@@ -165,20 +165,30 @@ position: -618,-809
 
 ANSWER_HERE
 
-<< if $kiss is true>>
-<<make Lucy smile>>
-Lucy: *leans in and gives Phoebe a kiss on the forehead*
-<<make Phoebe smile>>
-<< else>>
-Lucy: ...
-<< endif>>
+<<if $try is true>>
+Lucy: Sure. That's all I want. 
+Phoebe: But...
+Phoebe: Don't get me wrong, Lucy. But I also need you to step down a little when I'm feeling bad. 
+Phoebe: I know you just want to help. And I love that. 
+Phoebe: But that's not how it works for me. 
+Lucy: I see. 
+Lucy: So, how can I help you?
+Phoebe: I don't know. 
+Phoebe: I'm sorry I can't give you an answer. I don't know if I'll ever have one. 
+Phoebe: But maybe you can help me with that. 
+Lucy: I'd like that. 
+Lucy: As long as you let me know what you feel, I can handle it, you know? Even if you feel like being alone. 
+Lucy: I like you when you're happy and I like you when you're struggling. 
+Lucy: I love you, penguin. 
 
-Lucy: *steps out of the house*
-<< fadeout Lucy>>
-<< wait 1>>
-Phoebe: ...
-<<make Phoebe annoyed>>
-<< wait 1>>
+<<elseif $change is true>>
+
+
+<<else>>
+
+
+<<endif>>
+
 
 << fadein Fader>>
 << wait 5>> 
