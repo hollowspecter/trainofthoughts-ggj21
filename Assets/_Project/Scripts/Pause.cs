@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -16,6 +17,12 @@ public class Pause : MonoBehaviour
 		{
 			paused = !paused;
 			TogglePause(paused);
+		}
+
+		// Restarts the game
+		if (Input.GetKeyDown(KeyCode.F1))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 	}
 
