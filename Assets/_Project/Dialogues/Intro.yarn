@@ -11,32 +11,32 @@ position: -1073,-811
 
 <<if $debug is false>>
 	<<make Phoebe smile>>
-	Phoebe: Hey.. what's up? Phoebe the name. 
+	Phoebe: Hey.. what's up? Phoebe the name.  #line:0ebdd7f
 	<<make Phoebe normal>>
-	Phoebe: Ok, I know what's up.
-	Phoebe: You probably live through the same shit I have to live through atm. We all live in lockdown everywhere, and it is what it is. 
-	Phoebe: Wear your damn masks, don't be stupid, stupid!
+	Phoebe: Ok, I know what's up. #line:073e2b3
+	Phoebe: You probably live through the same shit I have to live through atm. We all live in lockdown everywhere, and it is what it is.  #line:06f6dc9
+	Phoebe: Wear your damn masks, don't be stupid, stupid! #line:0eaa909
 	<<wait 1>>
 
-	Phoebe: But for real, of course it sucks.
-	Phoebe: Nobody wants to stay inside the whole damn day, nobody wants to sit inside, even when we're doing it most of the time.
-	Phoebe: It's annoying, but it's necessary.
+	Phoebe: But for real, of course it sucks. #line:09d0b2c
+	Phoebe: Nobody wants to stay inside the whole damn day, nobody wants to sit inside, even when we're doing it most of the time. #line:08cc247
+	Phoebe: It's annoying, but it's necessary. #line:002a8b9
 	<<wait 1>>
 
-	Phoebe: At least I can work from home easily as a game journalist, with most of my work being online research, and most of the team communication happening over DisFork anyway.
+	Phoebe: At least I can work from home easily as a game journalist, with most of my work being online research, and most of the team communication happening over DisFork anyway. #line:0be10b9
 	<<wait 1>>
 
-	Phoebe: Even though my job involves structuring words and sentences in a coherent and easy to understand matter, I..
-	Phoebe: I struggle with words. Often. A lot.
-	Phoebe: Like, for real.
-	Phoebe: It's really hard for me to communicate in person sometimes.. you know, when I have to speak.
-	Phoebe: I struggle to find the correct words to express my thoughts,...
-	Phoebe: and it feels like I’m on a journey for answers every time I have a normal conversation.
+	Phoebe: Even though my job involves structuring words and sentences in a coherent and easy to understand matter, I.. #line:0d4294f
+	Phoebe: I struggle with words. Often. A lot. #line:07ba114
+	Phoebe: Like, for real. #line:02c5663
+	Phoebe: It's really hard for me to communicate in person sometimes.. you know, when I have to speak. #line:0079d63
+	Phoebe: I struggle to find the correct words to express my thoughts,... #line:0c060b1
+	Phoebe: and it feels like I’m on a journey for answers every time I have a normal conversation. #line:09c62d8
 <<endif>>
 	
-Phoebe: A journey on my train of thought.
+Phoebe: A journey on my train of thought. #line:0e5c99a
 
-<< add_to_answer my way of thinking>> 
+<< add_to_answer My way of thinking>> 
 <<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<cam outside 0>>
@@ -54,8 +54,8 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:0fba934
+... #line:0f2524c
 
 << add_to_answer A push in another direction>> 
 <<deactivate DialogueCanvas>>
@@ -75,10 +75,10 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:06cb238
+... #line:0a4a754
 
-<< add_to_answer A push in another direction>> 
+<< add_to_answer Sometimes I feel like>> 
 <<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<cam outside 0>>
@@ -96,8 +96,8 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:0be1e0b
+... #line:03fc736
 
 << add_to_answer Thought blockages can get unblocked>> 
 <<deactivate DialogueCanvas>>
@@ -117,8 +117,8 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:0fb38d8
+... #line:08343ce
 
 << add_to_answer Some thoughts are like>> 
 <<deactivate DialogueCanvas>>
@@ -138,8 +138,8 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:01f2374
+... #line:0c57969
 
 << add_to_answer When my mind is aimlessly jumping around,>> 
 <<deactivate DialogueCanvas>>
@@ -159,8 +159,8 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:0792898
+... #line:06173f5
 
 << add_to_answer Sometimes when I’m on my lowest point>> 
 <<deactivate DialogueCanvas>>
@@ -180,11 +180,11 @@ position: -846,-810
 << fadein Phoebe>>
 << wait 1>> 
 
-ANSWER_HERE
-...
+ANSWER_HERE #line:0da748a
+... #line:071f138
 <<make Phoebe smile>>
 <<wait 1>>
-Phoebe: Please enjoy the ride.
+Phoebe: Please enjoy the ride. #line:0d01f08
 
 << wait 1>>
 
