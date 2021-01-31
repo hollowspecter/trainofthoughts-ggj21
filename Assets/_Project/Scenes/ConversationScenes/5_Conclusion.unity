@@ -216,7 +216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_text
-      value: Fuck.This is all too much right now.
+      value: Fuck. This is all too much right now.
       objectReference: {fileID: 0}
     - target: {fileID: 1331664202565387410, guid: edde157d9b70c4e47bdbe5b293992da9, type: 3}
       propertyPath: m_fontSize
@@ -7980,6 +7980,26 @@ PrefabInstance:
     - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.200005
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -93.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99812037
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856672, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06128392
+      objectReference: {fileID: 0}
+    - target: {fileID: 152656936610856673, guid: f48f276447834c044b7f86704b800652, type: 3}
+      propertyPath: field of view
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f48f276447834c044b7f86704b800652, type: 3}
