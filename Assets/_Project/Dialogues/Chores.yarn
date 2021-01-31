@@ -12,9 +12,7 @@ Lucy: Hey Phoebe, did you take out the trash? #line:023fc9b
 <<fadein Phoebe>>
 <<wait 1>>
 Phoebe: No, I'm still sitting in my chair, are you blind? #line:0f01a61
-<<make Phoebe annoyed>>
 Lucy:  Aw come on, don't be like that..  #line:0a6d4fe
-<<make Phoebe normal>>
 Lucy: It started to smell already, you promised to help more with the chores, remember..? #line:0b848f2
 <<make Phoebe annoyed>>
 Phoebe: Well, since I'm sitting at home all day doing nothing, I can easily do more, isn't that what you wanna say?? #line:0a231b6
