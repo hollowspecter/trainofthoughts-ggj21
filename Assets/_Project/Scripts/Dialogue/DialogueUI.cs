@@ -59,6 +59,16 @@ namespace Yarn.Unity
 			{"Jeff", 5f }
 		};
 
+		private Dictionary<string, Color> npcColor = new Dictionary<string, Color>
+		{
+			{"Default", Color.white },
+			{"Phoebe", new Color(1f, 0.75f, 0.6f) },
+			{"Lucy", new Color(1f, 0.6f, 0.62f) },
+			{"Mo", new Color(0.75f, 0.75f, 0.75f) },
+			{"Mom", new Color(0.71f, 0.93f, 0.67f) },
+			{"Jeff", new Color(0.84f, 0.67f, 0.93f) }
+		};
+
 		/// <summary>
 		/// The object that contains the dialogue and the options.
 		/// </summary>
@@ -263,7 +273,7 @@ namespace Yarn.Unity
 		public DialogueRunner.StringUnityEvent onLeftName;
 		public DialogueRunner.StringUnityEvent onRightName;
 		public FMODUnity.StudioEventEmitter talkingEmitter;
-
+		public TMPro.TextMeshProUGUI dialogueText;
 
 		internal void Awake()
 		{
@@ -323,11 +333,13 @@ namespace Yarn.Unity
 					onRightName.Invoke(name);
 				}
 				FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Character", npcLUT[name]);
+				dialogueText.color = npcColor[name];
 				text = text.Substring(nameIndex + 2);
 			}
 			else
 			{
 				FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Character", 0f);
+				dialogueText.color = npcColor["Default"];
 			}
 
 			// Show text
