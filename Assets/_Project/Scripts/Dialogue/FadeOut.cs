@@ -12,6 +12,7 @@ public class FadeOut : MonoBehaviour
 	private void Awake()
 	{
 		text = GetComponent<TextMeshProUGUI>();
+		text.color = Color.black;
 	}
 
 	private void Start()
@@ -21,14 +22,21 @@ public class FadeOut : MonoBehaviour
 
 	private IEnumerator FadingOut()
 	{
-		yield return new WaitForSeconds(fadeoutTime);
-		float value = 1f;
+		float value = 0f;
+		while (value < 1f)
+		{
+			value += Time.deltaTime;
+			text.color = new Color(value, value, value);
+			yield return null;
+		}
+		yield return new WaitForSeconds(fadeoutTime - 1f);
+		value = 1f;
 		while (value > 0f)
 		{
 			value -= Time.deltaTime;
-			text.alpha = value;
+			text.color = new Color(value, value, value, value);
 			yield return null;
 		}
-		text.alpha = 0f;
+		text.color = Color.clear;
 	}
 }

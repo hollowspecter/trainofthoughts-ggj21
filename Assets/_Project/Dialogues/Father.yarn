@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: -1271,-1104
 ---
-<< wait 10>> 
+<< wait 8>> 
 << fadeout Fader>>
 << wait 1>> 
 <<fadein Phoebe>>
@@ -90,6 +90,6 @@ Phoebe: pff
 Phoebe: *puts phone away*
 << endif>> 
 << fadein Fader>>
-<< wait 1>> 
+<< wait 5>> 
 << end>>
 ===

@@ -1,0 +1,194 @@
+title: Intro.Start
+tags: 
+colorID: 8
+position: -1073,-811
+---
+<< wait 8>> 
+<< fadeout Fader>>
+<< wait 1>> 
+<<fadein Phoebe>>
+<<wait 1>>
+
+<<if $debug is false>>
+	<<make Phoebe smile>>
+	Phoebe: Hey.. what's up? Phoebe the name. 
+	<<make Phoebe normal>>
+	Phoebe: Ok, I know what's up.
+	Phoebe: You probably live through the same shit I have to live through atm. We all live in lockdown everywhere, and it is what it is. 
+	Phoebe: Wear your damn masks, don't be stupid, stupid!
+	<<wait 1>>
+
+	Phoebe: But for real, of course it sucks.
+	Phoebe: Nobody wants to stay inside the whole damn day, nobody wants to sit inside, even when we're doing it most of the time.
+	Phoebe: It's annoying, but it's necessary.
+	<<wait 1>>
+
+	Phoebe: At least I can work from home easily as a game journalist, with most of my work being online research, and most of the team communication happening over DisFork anyway.
+	<<wait 1>>
+
+	Phoebe: Even though my job involves structuring words and sentences in a coherent and easy to understand matter, I..
+	Phoebe: I struggle with words. Often. A lot.
+	Phoebe: Like, for real.
+	Phoebe: It's really hard for me to communicate in person sometimes.. you know, when I have to speak.
+	Phoebe: I struggle to find the correct words to express my thoughts,...
+	Phoebe: and it feels like I’m on a journey for answers every time I have a normal conversation.
+<<endif>>
+	
+Phoebe: A journey on my train of thought.
+
+<< add_to_answer my way of thinking>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_platforms>>
+===
+
+title: Intro.Platforms
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer A push in another direction>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_jumppads>>
+===
+
+title: Intro.Jumppads
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer A push in another direction>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_breakingpads>>
+===
+
+title: Intro.Breakingpads
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer Thought blockages can get unblocked>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_buttons >>
+===
+
+title: Intro.Buttons
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer Some thoughts are like>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_sliding >>
+===
+
+title: Intro.Sliding
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer When my mind is aimlessly jumping around,>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_teleport >>
+===
+
+title: Intro.Teleport
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+
+<< add_to_answer Sometimes when I’m on my lowest point>> 
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_wrapping >>
+===
+
+title: Intro.Wrapping
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE
+...
+<<make Phoebe smile>>
+<<wait 1>>
+Phoebe: Please enjoy the ride.
+
+<< wait 1>>
+
+<< fadein Fader>>
+<< wait 5>> 
+<< end>>
+===
