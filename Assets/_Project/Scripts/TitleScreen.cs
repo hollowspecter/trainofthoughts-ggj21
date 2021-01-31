@@ -10,6 +10,7 @@ public class TitleScreen : MonoBehaviour
 	public GameObject blocker;
 	public Image titleScreen;
 	public Image blackFader;
+	public GameObject skipButton;
 	public float minTimeForTitleScreen = 5f;
 
 	private bool starting = false;
@@ -21,6 +22,15 @@ public class TitleScreen : MonoBehaviour
 
 	void Start()
 	{
+		if (PlayerPrefs.GetInt(SaveState.PlaythroughKey) == 1)
+		{
+			skipButton.SetActive(true);
+		}
+		else
+		{
+			skipButton.SetActive(false);
+		}
+
 		StartCoroutine(TitleScreenFlow());
 	}
 
@@ -45,6 +55,16 @@ public class TitleScreen : MonoBehaviour
 		StartCoroutine(EStartGame());
 	}
 
+	public void SkipTutorial()
+	{
+		if (starting)
+			return;
+
+		starting = true;
+		StartCoroutine(ESkipTutorial());
+	}
+
+
 	IEnumerator EStartGame()
 	{
 		// fade to black
@@ -52,5 +72,14 @@ public class TitleScreen : MonoBehaviour
 
 		// load next level
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	}
+
+	IEnumerator ESkipTutorial()
+	{
+		// fade to black
+		yield return blackFader.DOFade(1f, 1f).From(0f).WaitForCompletion();
+
+		// load next level
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 	}
 }

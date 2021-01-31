@@ -8,6 +8,8 @@ using TMPro;
 
 public class EndScreen : MonoBehaviour
 {
+
+
 	public Image titleScreen;
 	public TextMeshProUGUI text;
 
@@ -17,6 +19,7 @@ public class EndScreen : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		PlayerPrefs.SetInt(SaveState.PlaythroughKey, 1);
 		StartCoroutine(EndScreenRoutine());
 	}
 
@@ -70,4 +73,9 @@ public class EndScreen : MonoBehaviour
 			SceneManager.LoadScene(0);
 		}
 	}
+}
+
+public class SaveState
+{
+	public const string PlaythroughKey = "PlayedThrough";
 }
