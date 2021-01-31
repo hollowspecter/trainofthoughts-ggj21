@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: -1171,-1172
 ---
-<< wait 1>> 
+<< wait 8>> 
 << fadeout Fader>>
 << wait 1>> 
 << fadein Jeff>>
@@ -92,6 +92,6 @@ Phoebe: Sure. Whatever.
 
 << wait 3>>
 << fadein Fader>>
-<< wait 1>> 
+<< wait 5>> 
 << end>>
 ===

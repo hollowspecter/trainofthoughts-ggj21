@@ -42,6 +42,7 @@ public class CustomCommands : MonoBehaviour
 
 	private void EndScene(string[] parameters)
 	{
+		RegisterObject.ClearDatabase();
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 

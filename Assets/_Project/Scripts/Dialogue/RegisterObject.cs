@@ -7,6 +7,11 @@ public class RegisterObject : MonoBehaviour
 {
 	public static Dictionary<string, GameObject> Database = new Dictionary<string, GameObject>();
 
+	public static void ClearDatabase()
+	{
+		Database.Clear();
+	}
+
 	[SerializeField]
 	protected bool deactivateOnStart = true;
 	[SerializeField]
