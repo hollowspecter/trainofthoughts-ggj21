@@ -23,10 +23,11 @@ Phoebe: Well, but.. #line:007a3cd
 <<make Phoebe apologize>>
 Phoebe: (Oh no, what should I say?!)
 << add_to_answer Well but ...>> 
-<<deactivate DialogueCanvas>>
 <<fadeout Backdrop>>
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
@@ -54,10 +55,11 @@ Phoebe: I.. well..
 Phoebe: (Oh boisies... hmmmmm...)
 
 << add_to_answer I..well..>> 
-<<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<fadeout Lucy>>
 <<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker_middle>>

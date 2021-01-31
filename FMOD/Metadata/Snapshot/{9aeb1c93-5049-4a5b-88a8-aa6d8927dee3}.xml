@@ -28,7 +28,11 @@
 			<destination>{3c8b480e-6c37-4b43-86ab-71a6e29126b6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{adebcae4-b2ec-44d8-b031-f69c7244b3a7}" />
+	<object class="EventAutomatableProperties" id="{adebcae4-b2ec-44d8-b031-f69c7244b3a7}">
+		<relationship name="modulators">
+			<destination>{ea067946-df08-483b-85c2-22ebb8e3ef9c}</destination>
+		</relationship>
+	</object>
 	<object class="MarkerTrack" id="{ac008f29-5fdc-445f-a790-76af480294d0}" />
 	<object class="Timeline" id="{47a530b8-20b7-461a-b882-7d4e76009243}" />
 	<object class="SnapshotMasterTrack" id="{eb6fb1a6-cd1e-4809-b3d5-fcda3a74be8c}" />
@@ -39,9 +43,6 @@
 		<property name="value">
 			<value>-80</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{d2fdcf06-d6cb-4eaf-ac1a-4803e222692c}</destination>
-		</relationship>
 		<relationship name="automatableObject">
 			<destination>{a09d9f90-e884-437c-8210-64a19cf51c59}</destination>
 		</relationship>
@@ -53,9 +54,6 @@
 		<property name="value">
 			<value>-10</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{c537a346-b850-4e14-ae76-2ec0d1de09f7}</destination>
-		</relationship>
 		<relationship name="automatableObject">
 			<destination>{2c088c7b-8776-4a18-b733-e4d55f53ad94}</destination>
 		</relationship>
@@ -70,26 +68,15 @@
 			<destination>{2c088c7b-8776-4a18-b733-e4d55f53ad94}</destination>
 		</relationship>
 	</object>
-	<object class="ADSRModulator" id="{d2fdcf06-d6cb-4eaf-ac1a-4803e222692c}">
+	<object class="ADSRModulator" id="{ea067946-df08-483b-85c2-22ebb8e3ef9c}">
 		<property name="nameOfPropertyBeingModulated">
-			<value>value</value>
+			<value>snapshotIntensity</value>
 		</property>
-		<property name="initialValue">
-			<value>-80</value>
+		<property name="peakValue">
+			<value>100</value>
 		</property>
-		<property name="finalValue">
-			<value>-80</value>
-		</property>
-	</object>
-	<object class="ADSRModulator" id="{c537a346-b850-4e14-ae76-2ec0d1de09f7}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>value</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
+		<property name="sustainValue">
+			<value>100</value>
 		</property>
 	</object>
 </objects>

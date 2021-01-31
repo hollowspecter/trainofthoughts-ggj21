@@ -13,12 +13,14 @@ Phoebe: (Yes, my ringtone is from Phoenix Wright....)
 << fadein Mom>>
 << wait 1>> 
 Phoebe: (huh, my mum is calling) *picks up phone*
+<<make Mom call>>
 Mom: Phoebe dear, glad I got through to you. I called you four times already!
 Phoebe: Mom..hey.
-<<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<fadeout Mom>>
 <<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
@@ -53,10 +55,11 @@ Phoebe: (ugh. the fuck mom.)
 Phoebe: (...)
 
 << add_to_answer Mom.. just.. >> 
-<<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>
 <<fadeout Mom>>
 <<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker_middle>>

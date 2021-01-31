@@ -40,6 +40,9 @@ Phoebe: It's just...     RGH)
 << add_to_answer It's just>> 
 <<fadeout Phoebe>>
 <<fadeout Jeff>>
+<<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
 <<cam outside 0>>
 <<wait 3>>
 <<deactivate StartBlocker>>
@@ -50,7 +53,8 @@ colorID: 0
 position: -924,-1167
 ---
 << cam outside 20>>
-<< wait 10>> 
+<<fadein Backdrop>>
+<< wait 1>> 
 << fadein Phoebe>>
 << fadein Jeff>>
 << wait 1>> 
