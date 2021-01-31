@@ -228,6 +228,39 @@ Lucy: I like you when you're happy and I like you when you're struggling.
 Lucy: I love you, penguin. 
 
 <<elseif $change is true>>
+<<make Lucy normal>>
+<<make Phoebe normal>>
+Lucy: What do you mean?
+Phoebe: I used to love my job. 
+Phoebe: Do you remember how excited I was when I first started?
+<<make Lucy smile>>
+Lucy: Of course I do. You kept telling me about that one game for weeks!
+<<make Phoebe smile>>
+Phoebe: Yes! It was illustrated by-
+Lucy: -your favorite artist in the whole wide world.
+Lucy: I know. I love when you get excited over things.
+<<make Phoebe normal>>
+<<make Lucy normal>>
+Phoebe: Yeah… but I haven’t been in a while. 
+Phoebe: And at first I thought it was just me. Not being motivated enough. Just not good enough.
+<<make Phoebe annoyed>>
+Phoebe: But it has been months now and I haven’t felt content once. 
+Phoebe: I need to have this feeling back. 
+<<make Phoebe embarrassed>>
+Phoebe: I need to know that I’m not... broken. 
+<<make Lucy smile>>
+Lucy: That’s great!
+<<make Phoebe apologize>> 
+Phoebe: It is?
+Lucy: Penguin, I want you to be happy!
+<<make Phoebe normal>>
+Lucy: We can figure something out about the money and we might not be able to do everything at once. 
+Lucy: But you need to start somewhere. 
+<<make Phoebe smile>>
+Phoebe: Thank you, that means a lot. 
+<<make Phoebe embarrassed>>
+Phoebe: I might… maybe… you could help me with some of these things?
+Lucy: I will. 
 
 
 <<else>>
