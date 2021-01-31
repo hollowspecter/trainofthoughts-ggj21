@@ -10,32 +10,47 @@ position: -1073,-811
 <<fadein Lucy>>
 <<wait 1>>
 
+<<make Lucy smile>>
 Lucy: Hello, little penguin! 
 Lucy: I’m home!
 <<fadein Phoebe>>
 <<wait 0.5>>
+<<make Lucy concerned>>
 Lucy: How have you been? 
+<<make Phoebe annoyed>>
 Phoebe: Like shit.
+<<make Lucy smile>>
 Lucy: Oh, cute widdle-waddle do you need some cuddles?
+<<make Phoebe angry>>
 Phoebe: No. Stop it!
-Phoebe: I'm not in the mood for this. 
+Phoebe: I'm not in the mood for this.
+<<make Lucy concerned>> 
 Lucy: Okay, sorry. I just want to make you feel better. 
+<<make Mo happy>>
 <<fadein Mo>>
 <<wait 1>>
-Mo: Mau
+Mo: Mau!
+<<make Lucy smile>>
 Lucy: Hello, little catboy. 
 Lucy: Did you feed Mo yet?
+<<make Phoebe angry>>
 Phoebe: Shut it, will you?! 
 Phoebe: Why does everyone always want me to do some stupid shit for them? 
 Phoebe: Why can’t you all just leave me alone?!
+
 Phoebe: I just need a moment to breathe. 
+
 Phoebe: Just give me some fucking space!
+<<make Lucy concerned>>
 Lucy: Phoebs… 
 Lucy: I didn’t want to…
+<<make Phoebe annoyed>>
 Phoebe: Yeah. 
+<<make Phoebe angry>>
 Phoebe: But the problem is that you <i>do</i>.
 Phoebe: (...)
 Lucy: (...)
+<<make Phoebe embarrassed>>
 Phoebe: (............)
 
 <<fadeout Backdrop>>
@@ -67,8 +82,10 @@ position: -846,-810
 ANSWER_HERE
 
 <<if $reflecting is true>>
+<<make Phoebe embarrassed>>
 Phoebe: Please, just give me like 20 minutes to calm down. 
 Phoebe: I love you, Lucy, it’s just a lot right now.
+<<make Lucy normal>>
 Lucy: Okay. 
 Lucy: It’s okay. 
 Lucy: I get you. 
@@ -76,30 +93,40 @@ Lucy: Let’s talk whenever you are ready.
 Phoebe: I love you, otter.
 Lucy: I love you too. 
 Lucy: Tea?
+<<make Phoebe apologize>>
 Phoebe: That would be awesome. 
 Phoebe: Thank you.
 
 <<elseif $frustrated is true>>
+<<make Phoebe angry>>
 Phoebe: Just leave me alone, Lucy.
+<<make Lucy concerned>>
 Lucy: ...
+<<make Lucy normal>>
 Lucy: You can be so stubborn. 
 Lucy: Maybe just talk to me?
-Lucy: I don’t expect you to be a poet, but... don’t shut me out like this. 
+Lucy: I don’t expect you to be a poet, but... don’t shut me out like this.
+<<make Phoebe annoyed>>
 Phoebe: ...
 Lucy: I’ll make some tea. 
 Lucy: Join me, when you feel ready. 
 
 <<else>>
+<<make Phoebe angry>>
 Phoebe: And you never think about me and what I want! 
 Phoebe: Get out of my office, Lucy!
+<<make Lucy concerned>>
 Lucy: What?!
 Lucy: I'm just trying to help! 
-Phoebe: Yeah, well, you are not! 
+<<make Phoebe angry>>
+Phoebe: Yeah, well, you are not!
+<<make Lucy normal>>
 Lucy: Do you think it's fun to always see you struggling?
 Lucy: To see how you let yourself down? 
 Lucy: I'm trying so hard to make you feel better and all I get is this angry frustration. 
 Lucy: I deserve better, Phoebe!
 Lucy: You deserve better!
+<<make Phoebe embarrassed>>
 Phoebe: ...
 
 <<endif>>
@@ -116,26 +143,36 @@ Phoebe: ...
 <<fadein Lucy>>
 <<wait 1>>
 
-
+<<make Phoebe embarrassed>>
 Phoebe: Hey...
+<<make Lucy normal>>
 Lucy: Hey. 
+<<make Lucy smile>>
 Lucy: Sit with me. 
 Lucy: Get some tea. 
 Phoebe: Lucy, I'm so sorry. 
 Lucy: It's okay. 
 Phoebe: No, it's not. 
+<<make Phoebe embarrassed>>
 Phoebe: Please, listen. 
 Phoebe: I know you always want the best for me and I know you care. But sometimes...
 Phoebe: Sometimes it feels like everything is too much.
 Phoebe: Not you!
+<<make Phoebe annoyed>>
 Phoebe: Just... everything. 
+<<make Phoebe embarrassed>>
 Phoebe: And I feel so stupid about it. I feel like it should be easy. Like everyone is succeeding at life but me.
+<<make Phoebe annoyed>>
 Phoebe: But I can't. I'm just sitting around, fumbling for the right words.
 Phoebe: I...
+<<make Lucy smile>>
 Lucy: Come here. 
+<<make Phoebe embarrassed>>
 Phoebe: I don't want to be a burden to you. 
+<<make Lucy normal>>
 Lucy: You are not! Don't think that!
 Lucy: I just want to understand what's going on. 
+<<make Lucy smile>>
 Lucy: And I'm okay if you need some time to figure things out. 
 Lucy: But I want to be there. Even if you only need a hot beverage and maybe a cuddle. 
 
@@ -166,19 +203,25 @@ position: -618,-809
 ANSWER_HERE
 
 <<if $try is true>>
-Lucy: Sure. That's all I want. 
+<<make Lucy smile>>
+Lucy: Sure. That's all I want.
+<<make Phoebe embarrassed>>
 Phoebe: But...
 Phoebe: Don't get me wrong, Lucy. But I also need you to step down a little when I'm feeling bad. 
 Phoebe: I know you just want to help. And I love that. 
 Phoebe: But that's not how it works for me. 
+<<make Lucy normal>>
 Lucy: I see. 
+<<make Lucy smile>>
 Lucy: So, how can I help you?
 Phoebe: I don't know. 
 Phoebe: I'm sorry I can't give you an answer. I don't know if I'll ever have one. 
 Phoebe: But maybe you can help me with that. 
-Lucy: I'd like that. 
+Lucy: I'd like that.
+<<make Lucy normal>>
 Lucy: As long as you let me know what you feel, I can handle it, you know? Even if you feel like being alone. 
-Lucy: I like you when you're happy and I like you when you're struggling. 
+Lucy: I like you when you're happy and I like you when you're struggling.
+<<make Lucy smile>>
 Lucy: I love you, penguin. 
 
 <<elseif $change is true>>
