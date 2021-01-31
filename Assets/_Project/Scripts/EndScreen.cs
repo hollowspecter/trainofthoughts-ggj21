@@ -33,7 +33,7 @@ public class EndScreen : MonoBehaviour
 		while (value < 1f)
 		{
 			value += Time.deltaTime;
-			text.color = new Color(value, value, value);
+			text.color = new Color(0f, 0f, 0f, value);
 			yield return null;
 		}
 
@@ -59,7 +59,7 @@ public class EndScreen : MonoBehaviour
 			while (value > 0f)
 			{
 				value -= Time.deltaTime;
-				text.color = new Color(value, value, value, value);
+				text.color = new Color(0f, 0f, 0f, value);
 				yield return null;
 			}
 
