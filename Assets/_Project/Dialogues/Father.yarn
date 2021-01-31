@@ -78,6 +78,14 @@ position: -839,-1111
 << fadein Mom>>
 << wait 1>>
 
+<<if $thankful is true>>
+	<<make Phoebe embarrassed>>
+<<elseif $whatever is true>>
+	<<make Phoebe normal>>
+<<else>>
+	<<make Phoebe angry>>
+<<endif>>
+
 ANSWER_HERE
 
 Phoebe: Mom, I have to go. Goodbye.
@@ -85,7 +93,7 @@ Phoebe: Mom, I have to go. Goodbye.
 
 << fadeout Mom>>
 << wait 1>>
-
+<<make Phoebe normal>>
 Phoebe: (..........)
 
 << if $thankful is true>>
