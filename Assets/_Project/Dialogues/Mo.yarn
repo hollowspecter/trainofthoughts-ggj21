@@ -43,12 +43,13 @@ ANSWER_HERE
 <<make Mo wtf>>
 Mo: ..Meeow? *confused*
 << if $happy is true>>
-<<make Phoebe smile>> 
+	<<make Phoebe smile>> 
 	Phoebe: Exactly! *scratches him with a happy smile*
 << else>> 
 	Phoebe: I didn't really think you'd have an idea, all good Mo.. 
 << endif>> 
 
+<<wait 1>>
 <<make Mo happy>>
 <<make Phoebe smile>>
 Phoebe: *scratches him, smiling absently*
