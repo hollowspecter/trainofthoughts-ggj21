@@ -7,10 +7,12 @@ public class TriggerEvent : MonoBehaviour
 {
 	public UnityEvent onEnter;
 	public UnityEvent onExit;
+	public bool disableRendererOnStart = true;
 
 	private void Awake()
 	{
-		if (TryGetComponent<Renderer>(out var renderer))
+		if (disableRendererOnStart &&
+			TryGetComponent<Renderer>(out var renderer))
 		{
 			renderer.enabled = false;
 		}

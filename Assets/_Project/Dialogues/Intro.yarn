@@ -162,6 +162,27 @@ position: -846,-810
 ANSWER_HERE #line:0792898
 ... #line:06173f5
 
+<< add_to_answer When I am going in circles>>
+<<deactivate DialogueCanvas>>
+<<fadeout Phoebe>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate Blocker_fallthrough >>
+===
+
+title: Intro.FallThrough
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< wait 1>> 
+
+ANSWER_HERE #line:095eba5
+... #line:02bdedb
+
 << add_to_answer Sometimes when I’m on my lowest point>> 
 <<deactivate DialogueCanvas>>
 <<fadeout Phoebe>>

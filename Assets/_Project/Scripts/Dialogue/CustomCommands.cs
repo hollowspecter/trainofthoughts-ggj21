@@ -7,7 +7,6 @@ using Yarn.Unity;
 using DG.Tweening;
 using Cinemachine;
 
-[RequireComponent(typeof(DialogueRunner))]
 public class CustomCommands : MonoBehaviour
 {
 	private DialogueRunner dialogueRunner;
@@ -15,14 +14,17 @@ public class CustomCommands : MonoBehaviour
 	private void Awake()
 	{
 		dialogueRunner = GetComponent<DialogueRunner>();
-		dialogueRunner.AddCommandHandler("activate", ActivateGameObject);
-		dialogueRunner.AddCommandHandler("deactivate", DeactivateGameObject);
-		dialogueRunner.AddCommandHandler("fadein", FadeInSprite);
-		dialogueRunner.AddCommandHandler("fadeout", FadeOutSprite);
-		dialogueRunner.AddCommandHandler("cam", ChangeCameraPrio);
-		dialogueRunner.AddCommandHandler("add_to_answer", AddWordsToTextBlock);
-		dialogueRunner.AddCommandHandler("end", EndScene);
-		dialogueRunner.AddCommandHandler("make", ChangeExpression);
+		if (dialogueRunner != null)
+		{
+			dialogueRunner.AddCommandHandler("activate", ActivateGameObject);
+			dialogueRunner.AddCommandHandler("deactivate", DeactivateGameObject);
+			dialogueRunner.AddCommandHandler("fadein", FadeInSprite);
+			dialogueRunner.AddCommandHandler("fadeout", FadeOutSprite);
+			dialogueRunner.AddCommandHandler("cam", ChangeCameraPrio);
+			dialogueRunner.AddCommandHandler("add_to_answer", AddWordsToTextBlock);
+			dialogueRunner.AddCommandHandler("end", EndScene);
+			dialogueRunner.AddCommandHandler("make", ChangeExpression);
+		}
 	}
 
 	// used like <<make Phoebe angry>>
@@ -38,6 +40,11 @@ public class CustomCommands : MonoBehaviour
 		{
 			Debug.LogError($"Was unable to find \"{parameters[0]}\", make sure you've attached a RegisterObject component!");
 		}
+	}
+
+	public void EndScene()
+	{
+		EndScene(null);
 	}
 
 	private void EndScene(string[] parameters)
