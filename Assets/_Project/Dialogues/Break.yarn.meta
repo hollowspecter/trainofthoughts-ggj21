@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 02394744e0af95742bbd97c4073cc903
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Chores-Chors.Start-0
+  - Chores-Chors.Start-1
+  - Chores-Chors.Start-2
+  - Chores-Chors.Start-3
+  - Chores-Chors.Start-4
+  - Chores-Chors.Start-5
+  - Chores-Chors.Start-6
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 15c6c074349dc3a45be7dc7c425b1bdc, type: 3}
+  localizations: []

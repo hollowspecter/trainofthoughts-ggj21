@@ -1,0 +1,116 @@
+title: Break.Start
+tags: 
+colorID: 8
+position: -1073,-811
+---
+<< wait 8>> 
+<< fadeout Fader>>
+<< wait 1>> 
+*The front door opens, Lucy comes back home*
+<<fadein Lucy>>
+<<wait 1>>
+
+Lucy: Hello, little penguin! 
+Lucy: I’m home!
+<<fadein Phoebe>>
+<<wait 0.5>>
+Lucy: How have you been? 
+Phoebe: Like shit.
+Lucy: Oh, cute widdle-waddle do you need some cuddles?
+Phoebe: No. Stop it!
+Phoebe: I'm not in the mood for this. 
+Lucy: Okay, sorry. I just want to make you feel better. 
+<<fadein Mo>>
+<<wait 1>>
+Mo: Mau
+Lucy: Hello, little catboy. 
+Lucy: Did you feed Mo yet?
+Phoebe: Shut it, will you?! 
+Phoebe: Why does everyone always want me to do some stupid shit for them? 
+Phoebe: Why can’t you all just leave me alone?!
+Phoebe: I just need a moment to breathe. 
+Phoebe: Just give me some fucking space!
+Lucy: Phoebs… 
+Lucy: I didn’t want to…
+Phoebe: Yeah. 
+Phoebe: But the problem is that you <i>do</i>.
+Phoebe: (...)
+Lucy: (...)
+Phoebe: (............)
+
+<<fadeout Backdrop>>
+<<fadeout Phoebe>>
+<<fadeout Lucy>>
+<<fadeout Mo>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker>>
+===
+title: Break.Middle
+tags: 
+colorID: 0
+position: -846,-810
+---
+<< cam outside 20>>
+<<fadein Backdrop>>
+<< wait 1>> 
+<< fadein Phoebe>>
+<< fadein Lucy>>
+<< wait 1>> 
+
+ANSWER_HERE
+Lucy: And I don't know what to make of it, if I'm being honest...
+<<make Phoebe normal>>
+<< wait 1>> 
+<<make Lucy concerned>>
+Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.
+Lucy: Let's talk later, alright?
+Phoebe: I.. well.. 
+Phoebe: (Oh boisies... hmmmmm...)
+
+<< add_to_answer I..well..>> 
+<<fadeout Phoebe>>
+<<fadeout Lucy>>
+<<fadeout Backdrop>>
+<<wait 1>>
+<<deactivate DialogueCanvas>>
+<<cam outside 0>>
+<<wait 3>>
+<<deactivate StartBlocker_middle>>
+===
+title: Break.End
+tags: 
+colorID: 0
+position: -618,-809
+---
+<< cam outside 20>> 
+<<fadein Backdrop>>
+<< wait 1>> 
+<<make Lucy normal>>
+<< fadein Lucy>>
+<< fadein Phoebe>>
+<< wait 1>>
+
+ANSWER_HERE
+
+<< if $kiss is true>>
+<<make Lucy smile>>
+Lucy: *leans in and gives Phoebe a kiss on the forehead*
+<<make Phoebe smile>>
+<< else>>
+Lucy: ...
+<< endif>>
+
+Lucy: *steps out of the house*
+<< fadeout Lucy>>
+<< wait 1>>
+Phoebe: ...
+<<make Phoebe annoyed>>
+<< wait 1>>
+
+<< fadein Fader>>
+<< wait 5>> 
+<< end>>
+===

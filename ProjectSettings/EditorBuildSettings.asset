@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/ConversationScenes/5_Conclusion.unity
     guid: fc0b4001c484e9e48815705437c96eb8
+  - enabled: 1
+    path: Assets/_Project/Scenes/Final_Screen.unity
+    guid: 82fdc2d94bc08cf45bdd210cea1e1c82
   m_configObjects: {}
