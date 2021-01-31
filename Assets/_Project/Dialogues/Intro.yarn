@@ -65,7 +65,7 @@ ANSWER_HERE
 <<deactivate Blocker_jumppads>>
 ===
 
-title: Intro.Platforms
+title: Intro.Jumppads
 tags: 
 colorID: 0
 position: -846,-810
@@ -83,28 +83,7 @@ ANSWER_HERE
 <<fadeout Phoebe>>
 <<cam outside 0>>
 <<wait 3>>
-<<deactivate Blocker_jumppads>>
-===
-
-title: Intro.Jumppads
-tags: 
-colorID: 0
-position: -846,-810
----
-<< cam outside 20>>
-<< wait 1>> 
-<< fadein Phoebe>>
-<< wait 1>> 
-
-ANSWER_HERE
-...
-
-<< add_to_answer Sometimes I feel like>> 
-<<deactivate DialogueCanvas>>
-<<fadeout Phoebe>>
-<<cam outside 0>>
-<<wait 3>>
-<<deactivate Blocker_breakingpads >>
+<<deactivate Blocker_breakingpads>>
 ===
 
 title: Intro.Breakingpads
