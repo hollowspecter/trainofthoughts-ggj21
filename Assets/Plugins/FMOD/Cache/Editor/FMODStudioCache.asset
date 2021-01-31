@@ -199,7 +199,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476866424457575
+  lastModified: 637476869731933039
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -256,12 +256,13 @@ MonoBehaviour:
   - {fileID: -4441536538348774852}
   - {fileID: -7034540668233537491}
   - {fileID: -5465779412082578564}
+  - {fileID: 3947768031096794283}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3472007584326946337}
   StringsBanks:
   - {fileID: 3977697902123831676}
-  stringsBankWriteTime: 637476866424517586
+  stringsBankWriteTime: 637476869731983049
   cacheVersion: 6
 --- !u!114 &1676016509487631112
 MonoBehaviour:
@@ -286,6 +287,29 @@ MonoBehaviour:
   MinDistance: 15
   MaxDistance: 100
   Length: 250
+--- !u!114 &3947768031096794283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EpicPiano
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EpicPiano
+  guid: ee350d04caff184b84e99ad15fc0bd43
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 76826
 --- !u!114 &3977697902123831676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,11 +325,11 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476866424517586
+  lastModified: 637476869731983049
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1528
+    Value: 1568
   Exists: 1
 --- !u!114 &6813473560135772774
 MonoBehaviour:
