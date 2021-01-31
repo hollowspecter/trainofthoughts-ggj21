@@ -57,7 +57,7 @@
 			<destination>{6d1c77f5-0358-4644-9c0b-efe1739de04f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{7e29dc4f-aec8-4d7d-8a4b-57cd244db026}</destination>
+			<destination>{a09d9f90-e884-437c-8210-64a19cf51c59}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b490c783-a290-4ecd-af48-d7cf8cb108fb}" />
@@ -159,7 +159,6 @@
 		<property name="length">
 			<value>1</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{2a704099-1caa-491c-ae9b-db157e57a05f}</destination>
 		</relationship>

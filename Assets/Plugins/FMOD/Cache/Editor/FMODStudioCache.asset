@@ -46,6 +46,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 585
+--- !u!114 &-7034540668233537491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/In Dialog
+  m_EditorClassIdentifier: 
+  Path: snapshot:/In Dialog
+  guid: 931ceb9a49505b4a88a8aa6d8927dee3
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6263509735180093843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,6 +92,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 370
+--- !u!114 &-5465779412082578564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MoTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MoTheme
+  guid: 77cca9842786ce44af9dccf2cffeed49
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39775
 --- !u!114 &-5435786046113606101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +161,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10994
+--- !u!114 &-4441536538348774852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Theme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Theme
+  guid: a66a3bc64f99244ba675eda32d305418
+  Banks:
+  - {fileID: -3472007584326946337}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 75692
 --- !u!114 &-3472007584326946337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +199,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637476478745166338
+  lastModified: 637476866424457575
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -184,12 +253,15 @@ MonoBehaviour:
   - {fileID: -6263509735180093843}
   - {fileID: -5435786046113606101}
   - {fileID: -3031404722123671266}
+  - {fileID: -4441536538348774852}
+  - {fileID: -7034540668233537491}
+  - {fileID: -5465779412082578564}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3472007584326946337}
   StringsBanks:
   - {fileID: 3977697902123831676}
-  stringsBankWriteTime: 637476478745226169
+  stringsBankWriteTime: 637476866424517586
   cacheVersion: 6
 --- !u!114 &1676016509487631112
 MonoBehaviour:
@@ -229,11 +301,11 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637476478745226169
+  lastModified: 637476866424517586
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1278
+    Value: 1528
   Exists: 1
 --- !u!114 &6813473560135772774
 MonoBehaviour:
