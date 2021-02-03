@@ -7,43 +7,44 @@ using DG.Tweening;
 
 public class TitleScreen : MonoBehaviour
 {
-	public GameObject blocker;
 	public Image titleScreen;
 	public Image blackFader;
-	public GameObject skipButton;
-	public float minTimeForTitleScreen = 5f;
+	public float minTimeForTitleScreen = 1f;
+	public float maxTimeForTitleScreen = 5f;
 
 	private bool starting = false;
 
 	private void Awake()
 	{
-		blackFader.DOFade(0f, 1f).From(0f);
+		blackFader.DOFade(0f, 1f).From(1f);
 	}
 
 	void Start()
 	{
-		if (PlayerPrefs.GetInt(SaveState.PlaythroughKey) == 1)
-		{
-			skipButton.SetActive(true);
-		}
-		else
-		{
-			skipButton.SetActive(false);
-		}
-
 		StartCoroutine(TitleScreenFlow());
 	}
 
 	IEnumerator TitleScreenFlow()
 	{
+		bool skip = false;
+		float timer = 0f;
 		// wait a couple seconds
-		yield return new WaitForSeconds(minTimeForTitleScreen);
+		while (timer < minTimeForTitleScreen ||
+			(timer > minTimeForTitleScreen && skip) ||
+			timer >= maxTimeForTitleScreen)
+		{
+			timer += Time.deltaTime;
+			skip = Input.anyKeyDown;
+			yield return null;
+		}
 
 		// fade it out
 		yield return titleScreen.DOFade(0f, 1f).WaitForCompletion();
+	}
 
-		// turn off blocker
-		blocker.SetActive(false);
+	public void ContinueGame()
+	{
+		StartGame();
 	}
 
 	public void StartGame()
@@ -52,34 +53,23 @@ public class TitleScreen : MonoBehaviour
 			return;
 
 		starting = true;
-		StartCoroutine(EStartGame());
+		StartCoroutine(EStartGame(SceneManager.GetActiveScene().buildIndex + 1));
 	}
 
-	public void SkipTutorial()
+	public void QuitGame()
 	{
-		if (starting)
-			return;
-
-		starting = true;
-		StartCoroutine(ESkipTutorial());
+#if UNITY_EDITOR
+		Debug.Log("Attempt to quit game. Does nothing in Editor");
+#endif
+		Application.Quit();
 	}
 
-
-	IEnumerator EStartGame()
+	IEnumerator EStartGame(int index)
 	{
 		// fade to black
 		yield return blackFader.DOFade(1f, 1f).From(0f).WaitForCompletion();
 
 		// load next level
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-	}
-
-	IEnumerator ESkipTutorial()
-	{
-		// fade to black
-		yield return blackFader.DOFade(1f, 1f).From(0f).WaitForCompletion();
-
-		// load next level
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+		SceneManager.LoadScene(index);
 	}
 }
