@@ -10,35 +10,37 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - Father-Father.Start-0
-  - Father-Father.Start-1
-  - Father-Father.Start-2
-  - Father-Father.Start-3
-  - Father-Father.Start-4
-  - Father-Father.Middle-5
-  - Father-Father.Middle-6
-  - Father-Father.Middle-7
-  - Father-Father.Middle-8
-  - Father-Father.Middle-9
-  - Father-Father.Middle-10
-  - Father-Father.Middle-11
-  - Father-Father.Middle-12
-  - Father-Father.Middle-13
-  - Father-Father.Middle-14
-  - Father-Father.Middle-15
-  - Father-Father.Middle-16
-  - Father-Father.End-17
-  - Father-Father.End-18
-  - Father-Father.End-19
-  - Father-Father.End-20
-  - Father-Father.End-21
-  - Father-Father.End-22
-  - Father-Father.End-23
-  - Father-Father.End-24
-  - Father-Father.End-25
-  - Father-Father.End-26
-  compilationStatus: 1
+  - line:05b26da
+  - line:0a6c7cc
+  - line:0afa93e
+  - line:092dd42
+  - line:07d99d7
+  - line:007b0d3
+  - line:049d55a
+  - line:047b336
+  - line:03e417d
+  - line:05d74dd
+  - line:0844977
+  - line:02c551f
+  - line:006d4b1
+  - line:05b2851
+  - line:07f5c05
+  - line:0e1b9e8
+  - line:0e5e383
+  - line:004fc06
+  - line:0c37dec
+  - line:098add0
+  - line:033d74e
+  - line:0226030
+  - line:07ba7fe
+  - line:0a1aa16
+  - line:021efb0
+  - line:0f00202
+  - line:07939ca
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: 600116fd49f797b45a88899a4073ff10, type: 3}
-  localizations: []
+  localizations:
+  - languageName: de
+    text: {fileID: 4900000, guid: 322a39db9f7b673419c8542ddfadc29f, type: 3}

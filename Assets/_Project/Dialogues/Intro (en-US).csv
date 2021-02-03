@@ -1,0 +1,33 @@
+id,text,file,node,lineNumber
+line:0ebdd7f,Phoebe: Hey.. what's up? Phoebe the name.,Intro,Intro.Start,14
+line:073e2b3,"Phoebe: Ok, I know what's up.",Intro,Intro.Start,16
+line:06f6dc9,"Phoebe: You probably live through the same shit I have to live through atm. We all live in lockdown everywhere, and it is what it is.",Intro,Intro.Start,17
+line:0eaa909,"Phoebe: Wear your damn masks, don't be stupid, stupid!",Intro,Intro.Start,18
+line:09d0b2c,"Phoebe: But for real, of course it sucks.",Intro,Intro.Start,21
+line:08cc247,"Phoebe: Nobody wants to stay inside the whole damn day, nobody wants to sit inside, even when we're doing it most of the time.",Intro,Intro.Start,22
+line:002a8b9,"Phoebe: It's annoying, but it's necessary.",Intro,Intro.Start,23
+line:0be10b9,"Phoebe: At least I can work from home easily as a game journalist, with most of my work being online research, and most of the team communication happening over DisFork anyway.",Intro,Intro.Start,26
+line:0d4294f,"Phoebe: Even though my job involves structuring words and sentences in a coherent and easy to understand matter, I..",Intro,Intro.Start,29
+line:07ba114,Phoebe: I struggle with words. Often. A lot.,Intro,Intro.Start,30
+line:02c5663,"Phoebe: Like, for real.",Intro,Intro.Start,31
+line:0079d63,"Phoebe: It's really hard for me to communicate in person sometimes.. you know, when I have to speak.",Intro,Intro.Start,32
+line:0c060b1,"Phoebe: I struggle to find the correct words to express my thoughts,...",Intro,Intro.Start,33
+line:09c62d8,Phoebe: and it feels like I’m on a journey for answers every time I have a normal conversation.,Intro,Intro.Start,34
+line:0e5c99a,Phoebe: A journey on my train of thought.,Intro,Intro.Start,37
+line:0fba934,ANSWER_HERE,Intro,Intro.Platforms,57
+line:0f2524c,...,Intro,Intro.Platforms,58
+line:06cb238,ANSWER_HERE,Intro,Intro.Jumppads,78
+line:0a4a754,...,Intro,Intro.Jumppads,79
+line:0be1e0b,ANSWER_HERE,Intro,Intro.Breakingpads,99
+line:03fc736,...,Intro,Intro.Breakingpads,100
+line:0fb38d8,ANSWER_HERE,Intro,Intro.Buttons,120
+line:08343ce,...,Intro,Intro.Buttons,121
+line:01f2374,ANSWER_HERE,Intro,Intro.Sliding,141
+line:0c57969,...,Intro,Intro.Sliding,142
+line:0792898,ANSWER_HERE,Intro,Intro.Teleport,162
+line:06173f5,...,Intro,Intro.Teleport,163
+line:095eba5,ANSWER_HERE,Intro,Intro.FallThrough,183
+line:02bdedb,...,Intro,Intro.FallThrough,184
+line:0da748a,ANSWER_HERE,Intro,Intro.Wrapping,204
+line:071f138,...,Intro,Intro.Wrapping,205
+line:0d01f08,Phoebe: Please enjoy the ride.,Intro,Intro.Wrapping,208

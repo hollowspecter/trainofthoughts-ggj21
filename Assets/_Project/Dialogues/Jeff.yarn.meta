@@ -10,13 +10,55 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - Mo-Mo.Start-0
-  - Mo-Mo.Start-1
-  - Mo-Mo.Start-2
-  - Mo-Mo.Start-3
-  - Mo-Mo.Start-4
-  compilationStatus: 1
+  - line:03e22d5
+  - line:0487c1c
+  - line:00b15b6
+  - line:0d22c3b
+  - line:02ffe36
+  - line:0934a1e
+  - line:05b8aa3
+  - line:0afc712
+  - line:0bb78f1
+  - line:033ff2e
+  - line:0d7beda
+  - line:0204e5e
+  - line:05b936b
+  - line:0ac254d
+  - line:09a0afe
+  - line:0df4cc0
+  - line:0929012
+  - line:01d5d26
+  - line:04ca1d0
+  - line:0919d8f
+  - line:0c66607
+  - line:0cec219
+  - line:0065f5c
+  - line:0dc47dc
+  - line:05fb049
+  - line:026eff9
+  - line:0a22124
+  - line:059fc27
+  - line:038c6aa
+  - line:02b1fcd
+  - line:00dff27
+  - line:070ed92
+  - line:08d97d4
+  - line:08e7709
+  - line:00bb284
+  - line:0ff3719
+  - line:0332bc7
+  - line:08b48a1
+  - line:0544b40
+  - line:0990b00
+  - line:0ab4a0e
+  - line:0ab613f
+  - line:0c3e313
+  - line:0adbab9
+  - line:00e24a8
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: 1b4066e882ee87c4893106adc80ae1da, type: 3}
-  localizations: []
+  baseLanguage: {fileID: 7128917941130120860, guid: 892c78e158509d4409479a2f92310e86, type: 3}
+  localizations:
+  - languageName: de
+    text: {fileID: 4900000, guid: fbfe627680dc7284e9b4dfbb9d106738, type: 3}

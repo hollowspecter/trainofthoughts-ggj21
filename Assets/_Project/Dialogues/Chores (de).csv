@@ -1,0 +1,20 @@
+id,text,file,node,lineNumber
+line:023fc9b,"Lucy: Hey Phoebe, did you take out the trash?",Chores,Chores.Start,11
+line:0f01a61,"Phoebe: No, I'm still sitting in my chair, are you blind?",Chores,Chores.Start,14
+line:0a6d4fe,"Lucy:  Aw come on, don't be like that..",Chores,Chores.Start,15
+line:0b848f2,"Lucy: It started to smell already, you promised to help more with the chores, remember..?",Chores,Chores.Start,16
+line:0a231b6,"Phoebe: Well, since I'm sitting at home all day doing nothing, I can easily do more, isn't that what you wanna say??",Chores,Chores.Start,18
+line:068899e,"Lucy: That's unfair Phoebe, you know that's not what I meant!",Chores,Chores.Start,19
+line:007a3cd,"Phoebe: Well, but..",Chores,Chores.Start,20
+line:0f004ef,"Phoebe: (Oh no, what should I say?!)",Chores,Chores.Start,22
+line:0a1a69d,ANSWER_HERE,Chores,Chores.Middle,45
+line:078f6ef,"Lucy: And I don't know what to make of it, if I'm being honest...",Chores,Chores.Middle,46
+line:0987241,"Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.",Chores,Chores.Middle,50
+line:0218e59,"Lucy: Let's talk later, alright?",Chores,Chores.Middle,51
+line:04e1e1e,Phoebe: I.. well..,Chores,Chores.Middle,52
+line:0e81944,Phoebe: (Oh boisies... hmmmmm...),Chores,Chores.Middle,53
+line:0c22b60,ANSWER_HERE,Chores,Chores.End,78
+line:064ac4f,Lucy: *leans in and gives Phoebe a kiss on the forehead*,Chores,Chores.End,82
+line:0ea6de6,Lucy: ...,Chores,Chores.End,85
+line:03acef5,Lucy: *steps out of the house*,Chores,Chores.End,88
+line:08dd376,Phoebe: ...,Chores,Chores.End,91

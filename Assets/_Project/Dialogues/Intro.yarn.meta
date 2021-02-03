@@ -8,17 +8,44 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: en-US
+  baseLanguageID: de
   stringIDs:
-  - Chores-Chors.Start-0
-  - Chores-Chors.Start-1
-  - Chores-Chors.Start-2
-  - Chores-Chors.Start-3
-  - Chores-Chors.Start-4
-  - Chores-Chors.Start-5
-  - Chores-Chors.Start-6
-  compilationStatus: 1
+  - line:0ebdd7f
+  - line:073e2b3
+  - line:06f6dc9
+  - line:0eaa909
+  - line:09d0b2c
+  - line:08cc247
+  - line:002a8b9
+  - line:0be10b9
+  - line:0d4294f
+  - line:07ba114
+  - line:02c5663
+  - line:0079d63
+  - line:0c060b1
+  - line:09c62d8
+  - line:0e5c99a
+  - line:0fba934
+  - line:0f2524c
+  - line:06cb238
+  - line:0a4a754
+  - line:0be1e0b
+  - line:03fc736
+  - line:0fb38d8
+  - line:08343ce
+  - line:01f2374
+  - line:0c57969
+  - line:0792898
+  - line:06173f5
+  - line:095eba5
+  - line:02bdedb
+  - line:0da748a
+  - line:071f138
+  - line:0d01f08
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: 15c6c074349dc3a45be7dc7c425b1bdc, type: 3}
-  localizations: []
+  baseLanguage: {fileID: 7128917941130120860, guid: 2cd34e5129106a0469955e16a7eb2034, type: 3}
+  localizations:
+  - languageName: en-US
+    text: {fileID: 4900000, guid: 6ee2022d0d9dd3e43b681887336a213c, type: 3}

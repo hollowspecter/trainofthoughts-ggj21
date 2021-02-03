@@ -10,13 +10,21 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - Mo-Mo.Start-0
-  - Mo-Mo.Start-1
-  - Mo-Mo.Start-2
-  - Mo-Mo.Start-3
-  - Mo-Mo.Start-4
-  compilationStatus: 1
+  - line:062b40d
+  - line:0527f3d
+  - line:0fa9f5f
+  - line:0fd8654
+  - line:0a977b2
+  - line:0e4ada7
+  - line:067ea81
+  - line:0ec8883
+  - line:099cc50
+  - line:043136f
+  - line:0e917eb
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: 1b4066e882ee87c4893106adc80ae1da, type: 3}
-  localizations: []
+  localizations:
+  - languageName: de
+    text: {fileID: 4900000, guid: 4f1b6131edd49584b8147670446ddcad, type: 3}
