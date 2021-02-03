@@ -10,15 +10,29 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - Chores-Chors.Start-0
-  - Chores-Chors.Start-1
-  - Chores-Chors.Start-2
-  - Chores-Chors.Start-3
-  - Chores-Chors.Start-4
-  - Chores-Chors.Start-5
-  - Chores-Chors.Start-6
-  compilationStatus: 1
+  - line:023fc9b
+  - line:0f01a61
+  - line:0a6d4fe
+  - line:0b848f2
+  - line:0a231b6
+  - line:068899e
+  - line:007a3cd
+  - line:0f004ef
+  - line:0a1a69d
+  - line:078f6ef
+  - line:0987241
+  - line:0218e59
+  - line:04e1e1e
+  - line:0e81944
+  - line:0c22b60
+  - line:064ac4f
+  - line:0ea6de6
+  - line:03acef5
+  - line:08dd376
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: 15c6c074349dc3a45be7dc7c425b1bdc, type: 3}
-  localizations: []
+  localizations:
+  - languageName: de
+    text: {fileID: 4900000, guid: ef497d725117c964a87aceff212c3ae4, type: 3}

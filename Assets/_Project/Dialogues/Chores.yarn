@@ -19,7 +19,7 @@ Phoebe: Well, since I'm sitting at home all day doing nothing, I can easily do m
 Lucy: That's unfair Phoebe, you know that's not what I meant! #line:068899e
 Phoebe: Well, but.. #line:007a3cd
 <<make Phoebe apologize>>
-Phoebe: (Oh no, what should I say?!)
+Phoebe: (Oh no, what should I say?!) #line:0f004ef
 << add_to_answer Well but ...>> 
 <<fadeout Backdrop>>
 <<fadeout Phoebe>>
@@ -42,15 +42,15 @@ position: -846,-810
 << fadein Lucy>>
 << wait 1>> 
 
-ANSWER_HERE
-Lucy: And I don't know what to make of it, if I'm being honest...
+ANSWER_HERE #line:0a1a69d
+Lucy: And I don't know what to make of it, if I'm being honest... #line:078f6ef
 <<make Phoebe normal>>
 << wait 1>> 
 <<make Lucy concerned>>
-Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that.
-Lucy: Let's talk later, alright?
-Phoebe: I.. well.. 
-Phoebe: (Oh boisies... hmmmmm...)
+Lucy:  Phoebe.. I'm sorry. I really have to go to work now, but I don't want you to think like that. #line:0987241
+Lucy: Let's talk later, alright? #line:0218e59
+Phoebe: I.. well..  #line:04e1e1e
+Phoebe: (Oh boisies... hmmmmm...) #line:0e81944
 
 << add_to_answer I..well..>> 
 <<fadeout Phoebe>>
@@ -75,20 +75,20 @@ position: -618,-809
 << fadein Phoebe>>
 << wait 1>>
 
-ANSWER_HERE
+ANSWER_HERE #line:0c22b60
 
 << if $kiss is true>>
 <<make Lucy smile>>
-Lucy: *leans in and gives Phoebe a kiss on the forehead*
+Lucy: *leans in and gives Phoebe a kiss on the forehead* #line:064ac4f
 <<make Phoebe smile>>
 << else>>
-Lucy: ...
+Lucy: ... #line:0ea6de6
 << endif>>
 
-Lucy: *steps out of the house*
+Lucy: *steps out of the house* #line:03acef5
 << fadeout Lucy>>
 << wait 1>>
-Phoebe: ...
+Phoebe: ... #line:08dd376
 <<make Phoebe annoyed>>
 << wait 1>>
 

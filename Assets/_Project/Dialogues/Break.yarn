@@ -6,52 +6,52 @@ position: -1073,-811
 << wait 8>> 
 << fadeout Fader>>
 << wait 1>> 
-*The front door opens, Lucy comes back home*
+*The front door opens, Lucy comes back home* #line:047081e
 <<fadein Lucy>>
 <<wait 1>>
 
 <<make Lucy smile>>
-Lucy: Hello, little penguin! 
-Lucy: I’m home!
+Lucy: Hello, little penguin!  #line:08e5ad9
+Lucy: I'm home! #line:013af98
 <<fadein Phoebe>>
 <<wait 0.5>>
 <<make Lucy concerned>>
-Lucy: How have you been? 
+Lucy: How have you been?  #line:016b83b
 <<make Phoebe annoyed>>
-Phoebe: Like shit.
+Phoebe: Like shit. #line:0b62ac8
 <<make Lucy smile>>
-Lucy: Oh, cute widdle-waddle do you need some cuddles?
+Lucy: Oh, cute widdle-waddle do you need some cuddles? #line:04208f0
 <<make Phoebe angry>>
-Phoebe: No. Stop it!
-Phoebe: I'm not in the mood for this.
+Phoebe: No. Stop it! #line:0279149
+Phoebe: I'm not in the mood for this. #line:0db76bd
 <<make Lucy concerned>> 
-Lucy: Okay, sorry. I just want to make you feel better. 
+Lucy: Okay, sorry. I just want to make you feel better.  #line:08cd430
 <<make Mo happy>>
 <<fadein Mo>>
 <<wait 1>>
-Mo: Mau!
+Mo: Mau! #line:0694ba0
 <<make Lucy smile>>
-Lucy: Hello, little catboy. 
-Lucy: Did you feed Mo yet?
+Lucy: Hello, little catboy.  #line:0bbc15c
+Lucy: Did you feed Mo yet? #line:09fcc5c
 <<make Phoebe angry>>
-Phoebe: Shut it, will you?! 
-Phoebe: Why does everyone always want me to do some stupid shit for them? 
-Phoebe: Why can’t you all just leave me alone?!
+Phoebe: Shut it, will you?!  #line:0aa17c2
+Phoebe: Why does everyone always want me to do some stupid shit for them?  #line:0772976
+Phoebe: Why can’t you all just leave me alone?! #line:04d4938
 
-Phoebe: I just need a moment to breathe. 
+Phoebe: I just need a moment to breathe.  #line:0d46fa5
 
-Phoebe: Just give me some fucking space!
+Phoebe: Just give me some fucking space! #line:0bb1dbc
 <<make Lucy concerned>>
-Lucy: Phoebs… 
-Lucy: I didn’t want to…
+Lucy: Phoebs…  #line:0caa2e7
+Lucy: I didn’t want to… #line:05e2318
 <<make Phoebe annoyed>>
-Phoebe: Yeah. 
+Phoebe: Yeah.  #line:0b0605d
 <<make Phoebe angry>>
-Phoebe: But the problem is that you <i>do</i>.
-Phoebe: (...)
-Lucy: (...)
+Phoebe: But the problem is that you <i>do</i>. #line:0147f7f
+Phoebe: (...) #line:05708d8
+Lucy: (...) #line:00aadf3
 <<make Phoebe embarrassed>>
-Phoebe: (............)
+Phoebe: (............) #line:00563d6
 
 <<fadeout Backdrop>>
 <<fadeout Phoebe>>
@@ -79,55 +79,55 @@ position: -846,-810
 << fadein Lucy>>
 << wait 1>> 
 
-ANSWER_HERE
+ANSWER_HERE #line:0059eea
 
 <<if $reflecting is true>>
 <<make Phoebe embarrassed>>
-Phoebe: Please, just give me like 20 minutes to calm down. 
-Phoebe: I love you, Lucy, it’s just a lot right now.
+Phoebe: Please, just give me like 20 minutes to calm down.  #line:093be0d
+Phoebe: I love you, Lucy, it’s just a lot right now. #line:0860d1b
 <<make Lucy normal>>
-Lucy: Okay. 
-Lucy: It’s okay. 
-Lucy: I get you. 
-Lucy: Let’s talk whenever you are ready. 
-Phoebe: I love you, otter.
-Lucy: I love you too. 
-Lucy: Tea?
+Lucy: Okay.  #line:049804e
+Lucy: It’s okay.  #line:0fb8aa4
+Lucy: I get you.  #line:04e6b19
+Lucy: Let’s talk whenever you are ready.  #line:03daf72
+Phoebe: I love you, otter. #line:02430db
+Lucy: I love you too.  #line:0130549
+Lucy: Tea? #line:004148b
 <<make Phoebe apologize>>
-Phoebe: That would be awesome. 
-Phoebe: Thank you.
+Phoebe: That would be awesome.  #line:00273ff
+Phoebe: Thank you. #line:076a6d8
 
 <<elseif $frustrated is true>>
 <<make Phoebe angry>>
-Phoebe: Just leave me alone, Lucy.
+Phoebe: Just leave me alone, Lucy. #line:03c0fa4
 <<make Lucy concerned>>
-Lucy: ...
+Lucy: ... #line:017276b
 <<make Lucy normal>>
-Lucy: You can be so stubborn. 
-Lucy: Maybe just talk to me?
-Lucy: I don’t expect you to be a poet, but... don’t shut me out like this.
+Lucy: You can be so stubborn.  #line:0c4e5b1
+Lucy: Maybe just talk to me? #line:0921222
+Lucy: I don’t expect you to be a poet, but... don’t shut me out like this. #line:0565991
 <<make Phoebe annoyed>>
-Phoebe: ...
-Lucy: I’ll make some tea. 
-Lucy: Join me, when you feel ready. 
+Phoebe: ... #line:0eb6eac
+Lucy: I’ll make some tea.  #line:0d2b680
+Lucy: Join me, when you feel ready.  #line:0ca51c1
 
 <<else>>
 <<make Phoebe angry>>
-Phoebe: And you never think about me and what I want! 
-Phoebe: Get out of my office, Lucy!
+Phoebe: And you never think about me and what I want!  #line:091feb4
+Phoebe: Get out of my office, Lucy! #line:07cf9de
 <<make Lucy concerned>>
-Lucy: What?!
-Lucy: I'm just trying to help! 
+Lucy: What?! #line:00c1975
+Lucy: I'm just trying to help!  #line:056523a
 <<make Phoebe angry>>
-Phoebe: Yeah, well, you are not!
+Phoebe: Yeah, well, you are not! #line:09c04b4
 <<make Lucy normal>>
-Lucy: Do you think it's fun to always see you struggling?
-Lucy: To see how you let yourself down? 
-Lucy: I'm trying so hard to make you feel better and all I get is this angry frustration. 
-Lucy: I deserve better, Phoebe!
-Lucy: You deserve better!
+Lucy: Do you think it's fun to always see you struggling? #line:0e8dfa2
+Lucy: To see how you let yourself down?  #line:046da8d
+Lucy: I'm trying so hard to make you feel better and all I get is this angry frustration.  #line:02c7f60
+Lucy: I deserve better, Phoebe! #line:05ab96d
+Lucy: You deserve better! #line:06f9c4f
 <<make Phoebe embarrassed>>
-Phoebe: ...
+Phoebe: ... #line:068ff41
 
 <<endif>>
 
@@ -139,44 +139,44 @@ Phoebe: ...
 << wait 3>>
 <<fadeout Fader>>
 <<wait 1>>
-... a little later, in the living room...
+... a little later, in the living room... #line:0efff45
 <<wait 1>>
 <<fadein Phoebe>>
 <<fadein Lucy>>
 <<wait 1>>
 
 <<make Phoebe embarrassed>>
-Phoebe: Hey...
+Phoebe: Hey... #line:083ace5
 <<make Lucy normal>>
-Lucy: Hey. 
+Lucy: Hey.  #line:00e4bc2
 <<make Lucy smile>>
-Lucy: Sit with me. 
-Lucy: Get some tea. 
-Phoebe: Lucy, I'm so sorry. 
-Lucy: It's okay. 
-Phoebe: No, it's not. 
+Lucy: Sit with me.  #line:0111950
+Lucy: Get some tea.  #line:0226cbb
+Phoebe: Lucy, I'm so sorry.  #line:0bbfbd4
+Lucy: It's okay.  #line:0de10fa
+Phoebe: No, it's not.  #line:0dfec18
 <<make Phoebe embarrassed>>
-Phoebe: Please, listen. 
-Phoebe: I know you always want the best for me and I know you care. But sometimes...
-Phoebe: Sometimes it feels like everything is too much.
-Phoebe: Not you!
+Phoebe: Please, listen.  #line:03e6917
+Phoebe: I know you always want the best for me and I know you care. But sometimes... #line:02b9c2e
+Phoebe: Sometimes it feels like everything is too much. #line:0979081
+Phoebe: Not you! #line:08cc713
 <<make Phoebe annoyed>>
-Phoebe: Just... everything. 
+Phoebe: Just... everything.  #line:0a60336
 <<make Phoebe embarrassed>>
-Phoebe: And I feel so stupid about it. I feel like it should be easy. Like everyone is succeeding at life but me.
+Phoebe: And I feel so stupid about it. I feel like it should be easy. Like everyone is succeeding at life but me. #line:074b577
 <<make Phoebe annoyed>>
-Phoebe: But I can't. I'm just sitting around, fumbling for the right words.
-Phoebe: I...
+Phoebe: But I can't. I'm just sitting around, fumbling for the right words. #line:0d6a25f
+Phoebe: I... #line:0986000
 <<make Lucy smile>>
-Lucy: Come here. 
+Lucy: Come here.  #line:0a3f650
 <<make Phoebe embarrassed>>
-Phoebe: I don't want to be a burden to you. 
+Phoebe: I don't want to be a burden to you.  #line:005bd35
 <<make Lucy normal>>
-Lucy: You are not! Don't think that!
-Lucy: I just want to understand what's going on. 
+Lucy: You are not! Don't think that! #line:0cc10f5
+Lucy: I just want to understand what's going on.  #line:05a06cb
 <<make Lucy smile>>
-Lucy: And I'm okay if you need some time to figure things out. 
-Lucy: But I want to be there. Even if you only need a hot beverage and maybe a cuddle. 
+Lucy: And I'm okay if you need some time to figure things out.  #line:02910d2
+Lucy: But I want to be there. Even if you only need a hot beverage and maybe a cuddle.  #line:0845258
 
 
 
@@ -203,98 +203,98 @@ position: -618,-809
 << fadein Phoebe>>
 << wait 1>>
 
-ANSWER_HERE
+ANSWER_HERE #line:0405c31
 
 <<if $try is true>>
 <<make Lucy smile>>
-Lucy: Sure. That's all I want.
+Lucy: Sure. That's all I want. #line:0736522
 <<make Phoebe embarrassed>>
-Phoebe: But...
-Phoebe: Don't get me wrong, Lucy. But I also need you to step down a little when I'm feeling bad. 
-Phoebe: I know you just want to help. And I love that. 
-Phoebe: But that's not how it works for me. 
+Phoebe: But... #line:088a50c
+Phoebe: Don't get me wrong, Lucy. But I also need you to step down a little when I'm feeling bad.  #line:087a497
+Phoebe: I know you just want to help. And I love that.  #line:02fbae1
+Phoebe: But that's not how it works for me.  #line:0ad7b9a
 <<make Lucy normal>>
-Lucy: I see. 
+Lucy: I see.  #line:012ab02
 <<make Lucy smile>>
-Lucy: So, how can I help you?
-Phoebe: I don't know. 
-Phoebe: I'm sorry I can't give you an answer. I don't know if I'll ever have one. 
-Phoebe: But maybe you can help me with that. 
-Lucy: I'd like that.
+Lucy: So, how can I help you? #line:007908c
+Phoebe: I don't know.  #line:0113011
+Phoebe: I'm sorry I can't give you an answer. I don't know if I'll ever have one.  #line:0c9776d
+Phoebe: But maybe you can help me with that.  #line:0a368f9
+Lucy: I'd like that. #line:09b1549
 <<make Lucy normal>>
-Lucy: As long as you let me know what you feel, I can handle it, you know? Even if you feel like being alone. 
-Lucy: I like you when you're happy and I like you when you're struggling.
+Lucy: As long as you let me know what you feel, I can handle it, you know? Even if you feel like being alone.  #line:01274b9
+Lucy: I like you when you're happy and I like you when you're struggling. #line:0f2f9f2
 <<make Lucy smile>>
-Lucy: I love you, penguin. 
+Lucy: I love you, penguin.  #line:02dc3e2
 
 <<elseif $change is true>>
 <<make Lucy normal>>
 <<make Phoebe normal>>
-Lucy: What do you mean?
-Phoebe: I used to love my job. 
-Phoebe: Do you remember how excited I was when I first started?
+Lucy: What do you mean? #line:0060e1b
+Phoebe: I used to love my job.  #line:0a278f6
+Phoebe: Do you remember how excited I was when I first started? #line:0d6164e
 <<make Lucy smile>>
-Lucy: Of course I do. You kept telling me about that one game for weeks!
+Lucy: Of course I do. You kept telling me about that one game for weeks! #line:0784897
 <<make Phoebe smile>>
-Phoebe: Yes! It was illustrated by-
-Lucy: -your favorite artist in the whole wide world.
-Lucy: I know. I love when you get excited over things.
+Phoebe: Yes! It was illustrated by- #line:00b8294
+Lucy: -your favorite artist in the whole wide world. #line:0944d68
+Lucy: I know. I love when you get excited over things. #line:09eb593
 <<make Phoebe normal>>
 <<make Lucy normal>>
-Phoebe: Yeah… but I haven’t been in a while. 
-Phoebe: And at first I thought it was just me. Not being motivated enough. Just not good enough.
+Phoebe: Yeah… but I haven’t been in a while.  #line:0fa6e32
+Phoebe: And at first I thought it was just me. Not being motivated enough. Just not good enough. #line:0f032cb
 <<make Phoebe annoyed>>
-Phoebe: But it has been months now and I haven’t felt content once. 
-Phoebe: I need to have this feeling back. 
+Phoebe: But it has been months now and I haven’t felt content once.  #line:066163e
+Phoebe: I need to have this feeling back.  #line:0e19cc2
 <<make Phoebe embarrassed>>
-Phoebe: I need to know that I’m not... broken. 
+Phoebe: I need to know that I’m not... broken.  #line:0c56255
 <<make Lucy smile>>
-Lucy: That’s great!
+Lucy: That’s great! #line:0507fa1
 <<make Phoebe apologize>> 
-Phoebe: It is?
-Lucy: Penguin, I want you to be happy!
+Phoebe: It is? #line:0a2e43c
+Lucy: Penguin, I want you to be happy! #line:026c22b
 <<make Phoebe normal>>
-Lucy: We can figure something out about the money and we might not be able to do everything at once. 
-Lucy: But you need to start somewhere. 
+Lucy: We can figure something out about the money and we might not be able to do everything at once.  #line:08ea878
+Lucy: But you need to start somewhere.  #line:0159583
 <<make Phoebe smile>>
-Phoebe: Thank you, that means a lot. 
+Phoebe: Thank you, that means a lot.  #line:03fee6f
 <<make Phoebe embarrassed>>
-Phoebe: I might… maybe… you could help me with some of these things?
-Lucy: I will. 
+Phoebe: I might… maybe… you could help me with some of these things? #line:06baced
+Lucy: I will.  #line:04350b4
 
 
 <<else>>
 <<make Phoebe smile>>
-Phoebe: What do you think, Lucy? 
+Phoebe: What do you think, Lucy?  #line:09ae69f
 <<make Lucy normal>>
-Lucy: I think we deserve some us-time. 
+Lucy: I think we deserve some us-time.  #line:0887443
 <<make Lucy smile>>
-Lucy: We fell in love in October and I remember ice skating. It was so much fun!
+Lucy: We fell in love in October and I remember ice skating. It was so much fun! #line:09ac823
 <<make Phoebe normal>>
-Phoebe: And fucking freezing.
-Lucy: I know. And you slipped and slithered across the ice rink on your cute little penguin butt.
+Phoebe: And fucking freezing. #line:08c40f3
+Lucy: I know. And you slipped and slithered across the ice rink on your cute little penguin butt. #line:0309560
 <<make Phoebe annoyed>>
-Phoebe: It was all your fault! 
+Phoebe: It was all your fault!  #line:0cd4116
 <<make Lucy normal>>
-Lucy: How was that my fault?
-Phoebe: I...
+Lucy: How was that my fault? #line:036d88b
+Phoebe: I... #line:01a6c1c
 <<make Phoebe embarrassed>>
-Phoebe: I just couldn’t look away from you. 
-Phoebe: I love you, Lucy. 
-Phoebe: And I want to see the world with you. Not in a two weeks vacation. 
-Phoebe: I want to really see it and travel to all the icy places. 
-Phoebe: I want to drink hot chocolate in Iceland and kiss you in a snowstorm in the Alps.
+Phoebe: I just couldn’t look away from you.  #line:0ce1913
+Phoebe: I love you, Lucy.  #line:0e95e19
+Phoebe: And I want to see the world with you. Not in a two weeks vacation.  #line:00aedec
+Phoebe: I want to really see it and travel to all the icy places.  #line:06240bd
+Phoebe: I want to drink hot chocolate in Iceland and kiss you in a snowstorm in the Alps. #line:0e3a86c
 <<make Lucy smile>>
-Lucy: And throw a snowball at you in norway! 
+Lucy: And throw a snowball at you in norway!  #line:06a9c1d
 <<make Phoebe smile>>
-Phoebe: Yes. I want that. 
-Lucy: I want that too, penguin. 
+Phoebe: Yes. I want that.  #line:09de835
+Lucy: I want that too, penguin.  #line:063443e
 <<make Phoebe embarrassed>>
-Phoebe: But I don’t want you to think that I’m running away.
+Phoebe: But I don’t want you to think that I’m running away. #line:0f5faa7
 <<make Phoebe normal>>
 <<make Lucy normal>>
-Phoebe: Snow was always my happy place. 
-Phoebe: And I think I need to make my mind a happy place again. 
+Phoebe: Snow was always my happy place.  #line:0e1be34
+Phoebe: And I think I need to make my mind a happy place again.  #line:01d8e3e
 
 <<wait 1>>
 <<make Phoebe embarrassed>>

@@ -22,28 +22,34 @@ public class Pause : MonoBehaviour
 		// Restarts the game
 		if (Input.GetKeyDown(KeyCode.F1))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 
 		// Load specific level
 		if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(2);
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha2))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(3);
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha3))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(4);
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha4))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(5);
 		}
 		else if (Input.GetKeyDown(KeyCode.Alpha5))
 		{
+			RegisterObject.ClearDatabase();
 			SceneManager.LoadScene(6);
 		}
 	}

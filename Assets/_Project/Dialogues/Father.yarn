@@ -8,14 +8,14 @@ position: -1271,-1104
 << wait 1>> 
 <<fadein Phoebe>>
 << wait 1>> 
-*The ringtone of "Steel Samurai" plays loudly*
-Phoebe: (Yes, my ringtone is from Phoenix Wright....)
+*The ringtone of "Steel Samurai" plays loudly* #line:05b26da
+Phoebe: (Yes, my ringtone is from Phoenix Wright....) #line:0a6c7cc
 << fadein Mom>>
 << wait 1>> 
-Phoebe: (huh, my mum is calling) *picks up phone*
+Phoebe: (huh, my mum is calling) *picks up phone* #line:0afa93e
 <<make Mom call>>
-Mom: Phoebe dear, glad I got through to you. I called you four times already!
-Phoebe: Mom..hey.
+Mom: Phoebe dear, glad I got through to you. I called you four times already! #line:092dd42
+Phoebe: Mom..hey. #line:07d99d7
 <<fadeout Phoebe>>
 <<fadeout Mom>>
 <<fadeout Backdrop>>
@@ -37,24 +37,24 @@ position: -1053,-1106
 << fadein Mom>>
 << wait 1>> 
 
-ANSWER_HERE
-Phoebe: What's up?
+ANSWER_HERE #line:007b0d3
+Phoebe: What's up? #line:049d55a
 
 << if $happy is true>>
-Mom: Oh I'm fine dear, just fine. You know that I'm staying out of trouble for the time being.
+Mom: Oh I'm fine dear, just fine. You know that I'm staying out of trouble for the time being. #line:047b336
 << endif>> 
 
-Mom: I wanted to ask if you called your dad yet?
+Mom: I wanted to ask if you called your dad yet? #line:03e417d
 <<make Phoebe annoyed>>
-Phoebe: Why would I want to call him, mom?
-Mom: Well, first of all, he is still your father, Phoebe!
-Mom: Second, he sent you quite a sum for your birthday, and it's ungrateful to not acknowledge that.
-Phoebe: Of course he told you already. I still don't get why you are even keeping in touch with him that much.
-Mom: As I told you, he is your father.. We don't talk much, but when we do, it's mostly about you. We care about you, Phoebe.
+Phoebe: Why would I want to call him, mom? #line:05d74dd
+Mom: Well, first of all, he is still your father, Phoebe! #line:0844977
+Mom: Second, he sent you quite a sum for your birthday, and it's ungrateful to not acknowledge that. #line:02c551f
+Phoebe: Of course he told you already. I still don't get why you are even keeping in touch with him that much. #line:006d4b1
+Mom: As I told you, he is your father.. We don't talk much, but when we do, it's mostly about you. We care about you, Phoebe. #line:05b2851
 <<make Phoebe embarrassed>>
-Phoebe: Mom.. just..
-Phoebe: (ugh. the fuck mom.)
-Phoebe: (...)
+Phoebe: Mom.. just.. #line:07f5c05
+Phoebe: (ugh. the fuck mom.) #line:0e1b9e8
+Phoebe: (...) #line:0e5e383
 
 << add_to_answer Mom.. just.. >> 
 <<fadeout Phoebe>>
@@ -86,25 +86,25 @@ position: -839,-1111
 	<<make Phoebe angry>>
 <<endif>>
 
-ANSWER_HERE
+ANSWER_HERE #line:004fc06
 
-Phoebe: Mom, I have to go. Goodbye.
-*beep*
+Phoebe: Mom, I have to go. Goodbye. #line:0c37dec
+*beep* #line:098add0
 
 << fadeout Mom>>
 << wait 1>>
 <<make Phoebe normal>>
-Phoebe: (..........)
+Phoebe: (..........) #line:033d74e
 
 << if $thankful is true>>
-Phoebe: *beep boop beep tippy tappy*
-Phoebe: "Hey.. thank you for your present the other day. It really helps. Hope you're fine Dad, Phoebe."
+Phoebe: *beep boop beep tippy tappy* #line:0226030
+Phoebe: "Hey.. thank you for your present the other day. It really helps. Hope you're fine Dad, Phoebe." #line:07ba7fe
 << elseif $whatever is true>>
-Phoebe: *beep boop beep tippy tappy*
-Phoebe: "Thanks for the money, Phoebe."
+Phoebe: *beep boop beep tippy tappy* #line:0a1aa16
+Phoebe: "Thanks for the money, Phoebe." #line:021efb0
 << else>>
-Phoebe: pff
-Phoebe: *puts phone away*
+Phoebe: pff #line:0f00202
+Phoebe: *puts phone away* #line:07939ca
 << endif>> 
 << fadein Fader>>
 << wait 5>> 
