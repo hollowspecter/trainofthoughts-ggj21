@@ -47,5 +47,5 @@ ScriptedImporter:
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: 2cd34e5129106a0469955e16a7eb2034, type: 3}
   localizations:
-  - languageName: en-US
-    text: {fileID: 4900000, guid: 6ee2022d0d9dd3e43b681887336a213c, type: 3}
+  - languageName: de
+    text: {fileID: 4900000, guid: 6950a3a9fb62aa940ae38b533c167b57, type: 3}
