@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 848a2950c94926a4aa0cf91473acc0ba
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Piepsischrift
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2bc908a9387174f4cb4b7444d26b9a67, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
