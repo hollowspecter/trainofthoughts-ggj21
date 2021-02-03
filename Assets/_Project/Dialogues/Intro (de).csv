@@ -1,19 +1,19 @@
 id,text,file,node,lineNumber
-line:0ebdd7f,Phoebe: Hey.. what's up? Phoebe the name.,Intro,Intro.Start,14
-line:073e2b3,"Phoebe: Ok, I know what's up.",Intro,Intro.Start,16
-line:06f6dc9,"Phoebe: You probably live through the same shit I have to live through atm. We all live in lockdown everywhere, and it is what it is.",Intro,Intro.Start,17
-line:0eaa909,"Phoebe: Wear your damn masks, don't be stupid, stupid!",Intro,Intro.Start,18
-line:09d0b2c,"Phoebe: But for real, of course it sucks.",Intro,Intro.Start,21
-line:08cc247,"Phoebe: Nobody wants to stay inside the whole damn day, nobody wants to sit inside, even when we're doing it most of the time.",Intro,Intro.Start,22
-line:002a8b9,"Phoebe: It's annoying, but it's necessary.",Intro,Intro.Start,23
-line:0be10b9,"Phoebe: At least I can work from home easily as a game journalist, with most of my work being online research, and most of the team communication happening over DisFork anyway.",Intro,Intro.Start,26
-line:0d4294f,"Phoebe: Even though my job involves structuring words and sentences in a coherent and easy to understand matter, I..",Intro,Intro.Start,29
-line:07ba114,Phoebe: I struggle with words. Often. A lot.,Intro,Intro.Start,30
-line:02c5663,"Phoebe: Like, for real.",Intro,Intro.Start,31
-line:0079d63,"Phoebe: It's really hard for me to communicate in person sometimes.. you know, when I have to speak.",Intro,Intro.Start,32
-line:0c060b1,"Phoebe: I struggle to find the correct words to express my thoughts,...",Intro,Intro.Start,33
-line:09c62d8,Phoebe: and it feels like Iâ€™m on a journey for answers every time I have a normal conversation.,Intro,Intro.Start,34
-line:0e5c99a,Phoebe: A journey on my train of thought.,Intro,Intro.Start,37
+line:0ebdd7f,Phoebe: Hey.. was geht? Ich bin Phoebe.,Intro,Intro.Start,14
+line:073e2b3,"Phoebe: Ok, ich weiß eigentlich was bei dir geht.",Intro,Intro.Start,16
+line:06f6dc9,"Phoebe: Du durchlebst vermutlich gerade die gleiche Scheiße wie ich auch seit ‚ner Weile. Wir alle leben im Lockdown, daran kann man zur Zeit nicht viel ändern.",Intro,Intro.Start,17
+line:0eaa909,Phoebe: Zieht einfach alle eure verdammten Masken an!,Intro,Intro.Start,18
+line:09d0b2c,"Phoebe: Aber mal ehrlich, ich weiß, wie sehr es einen ankotzt. Glaub mir.",Intro,Intro.Start,21
+line:08cc247,"Phoebe: Niemand will den ganzen verdammten Tag drinnen bleiben, niemand will drinnen hocken, selbst wenn wir es die meiste Zeit eh tun.",Intro,Intro.Start,22
+line:002a8b9,"Phoebe: Es nervt, aber es ist notwendig.",Intro,Intro.Start,23
+line:0be10b9,"Phoebe: Zumindest kann ich als Spielejournalist problemlos von zu Hause aus arbeiten, weil der Großteil meiner Arbeit aus Online-Recherche besteht und die meiste Kommunikation im Team sowieso über DisFork stattfindet.",Intro,Intro.Start,26
+line:0d4294f,"Phoebe: Auch wenn es in meinem Job darum geht, Wörter und Sätze zusammenhängend und leicht verständlich zu strukturieren, habe ich...ich..",Intro,Intro.Start,29
+line:07ba114,Phoebe: Ich kämpfe mit Worten. Oft. Sehr oft.,Intro,Intro.Start,30
+line:02c5663,"Phoebe: Also, wirklich.",Intro,Intro.Start,31
+line:0079d63,"Phoebe: Es ist manchmal wirklich schwer für mich, persönlich zu kommunizieren... du weißt schon, wenn ich sprechen muss.",Intro,Intro.Start,32
+line:0c060b1,"Phoebe: Ich kämpfe darum, die richtigen Worte zu finden, um meine Gedanken auszudrücken, …",Intro,Intro.Start,33
+line:09c62d8,"Phoebe: und es fühlt sich an, als ob ich jedes Mal, wenn ich ein normales Gespräch führe, auf einer Reise nach Antworten bin.",Intro,Intro.Start,34
+line:0e5c99a,Phoebe: Eine Reise auf dem Train of Thought.,Intro,Intro.Start,37
 line:0fba934,ANSWER_HERE,Intro,Intro.Platforms,57
 line:0f2524c,...,Intro,Intro.Platforms,58
 line:06cb238,ANSWER_HERE,Intro,Intro.Jumppads,78
@@ -30,4 +30,4 @@ line:095eba5,ANSWER_HERE,Intro,Intro.FallThrough,183
 line:02bdedb,...,Intro,Intro.FallThrough,184
 line:0da748a,ANSWER_HERE,Intro,Intro.Wrapping,204
 line:071f138,...,Intro,Intro.Wrapping,205
-line:0d01f08,Phoebe: Please enjoy the ride.,Intro,Intro.Wrapping,208
+line:0d01f08,Phoebe: Viel Spaß bei der Fahrt!,Intro,Intro.Wrapping,208
