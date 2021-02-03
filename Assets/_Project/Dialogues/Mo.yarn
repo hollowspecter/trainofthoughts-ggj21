@@ -17,7 +17,7 @@ Phoebe: Yeah, I thought so. #line:0fa9f5f
 <<make Mo normal>>
 Mo: Miau. °_° #line:0fd8654
 Phoebe: You know I'm always..always.. #line:0a977b2
-Phoebe: (mhhhhh)
+Phoebe: (mhhhhh) #line:0e4ada7
 << add_to_answer You know I’m always >> 
 <<fadeout Phoebe>>
 <<fadeout Mo>>
@@ -38,21 +38,21 @@ position: -924,-1167
 << fadein Mo>>
 << wait 1>> 
 
-ANSWER_HERE
+ANSWER_HERE #line:067ea81
 
 <<make Mo wtf>>
-Mo: ..Meeow? *confused*
+Mo: ..Meeow? *confused* #line:0ec8883
 << if $happy is true>>
 	<<make Phoebe smile>> 
-	Phoebe: Exactly! *scratches him with a happy smile*
+	Phoebe: Exactly! *scratches him with a happy smile* #line:099cc50
 << else>> 
-	Phoebe: I didn't really think you'd have an idea, all good Mo.. 
+	Phoebe: I didn't really think you'd have an idea, all good Mo..  #line:043136f
 << endif>> 
 
 <<wait 1>>
 <<make Mo happy>>
 <<make Phoebe smile>>
-Phoebe: *scratches him, smiling absently*
+Phoebe: *scratches him, smiling absently* #line:0e917eb
 << wait 3>>
 << fadein Fader>>
 << wait 5>> 

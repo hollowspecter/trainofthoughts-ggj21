@@ -11,38 +11,38 @@ position: -1171,-1172
 << fadein Phoebe>> 
 << wait 1>> 
 
-Jeff: Hey, Phoebe. How are you? 
-Phoebe: Hey. I'm… 
+Jeff: Hey, Phoebe. How are you?  #line:03e22d5
+Phoebe: Hey. I'm…  #line:0487c1c
 
 <<fadein Mo>>
 <<wait 0.5>>
 
-Mo: Mau
-Phoebe: Not now, Mo, you damn catboy! ...
-Phoebe: Uhm, good. I guess. 
-Jeff: Alright. Okay. I am calling because of the last article. It has come to my attention that you did not send it to me yet. 
+Mo: Mau #line:00b15b6
+Phoebe: Not now, Mo, you damn catboy! ... #line:0d22c3b
+Phoebe: Uhm, good. I guess.  #line:02ffe36
+Jeff: Alright. Okay. I am calling because of the last article. It has come to my attention that you did not send it to me yet.  #line:0934a1e
 <<make Mo happy>>
-Mo: Mauuuuu
+Mo: Mauuuuu #line:05b8aa3
 <<make Phoebe annoyed>>
-Phoebe: Mo, I'm working. You get your food later! ...
+Phoebe: Mo, I'm working. You get your food later! ... #line:0afc712
 <<make Phoebe normal>>
 <<fadeout Mo>>
 <<wait 0.5>>
-Phoebe: What did you say, Jeff?
-Jeff: You did not send me the proofreading.
-Phoebe: So...?
+Phoebe: What did you say, Jeff? #line:0bb78f1
+Jeff: You did not send me the proofreading. #line:033ff2e
+Phoebe: So...? #line:0d7beda
 <<make Jeff bossy>>
-Jeff: Could you please focus for a second! Do you have any problems with the text? 
-Phoebe:  No, of course not. This is my fucking job. Why would I have any problems? 
-Jeff: Then, why did you not send the article to me? The deadline was yesterday. Are you just playing around at home, kid?
-Phoebe: Wha-
+Jeff: Could you please focus for a second! Do you have any problems with the text?  #line:0204e5e
+Phoebe:  No, of course not. This is my fucking job. Why would I have any problems?  #line:05b936b
+Jeff: Then, why did you not send the article to me? The deadline was yesterday. Are you just playing around at home, kid? #line:0ac254d
+Phoebe: Wha- #line:09a0afe
 <<make Phoebe angry>>
-Phoebe: Don't call me a fucking kid, Jeff.
+Phoebe: Don't call me a fucking kid, Jeff. #line:0df4cc0
 <<make Phoebe normal>>
-Phoebe: No, it’s just...
+Phoebe: No, it’s just... #line:0929012
 <<make Phoebe embarrassed>>
-Phoebe: (It's just what Phoebe? Shit, I just cursed. That's not good.)
-Phoebe: It's just...     RGH)
+Phoebe: (It's just what Phoebe? Shit, I just cursed. That's not good.) #line:01d5d26
+Phoebe: It's just...     RGH) #line:04ca1d0
 
 << add_to_answer It's just>> 
 <<fadeout Phoebe>>
@@ -67,51 +67,51 @@ position: -924,-1167
 << fadein Jeff>>
 << wait 1>> 
 
-ANSWER_HERE
+ANSWER_HERE #line:0919d8f
 
 <<if $open is true>>
 <<make Phoebe embarrassed>>
-Phoebe: The pandemic makes me feel like shit, but I’m, I’m really trying my best.
-Jeff: Hm… I see.
+Phoebe: The pandemic makes me feel like shit, but I’m, I’m really trying my best. #line:0c66607
+Jeff: Hm… I see. #line:0cec219
 <<make Jeff nice>>
-Jeff: Good thing the pandemic originated from China, so it won't last long, haha...
-Jeff: Ha... Uhm, but yeah...
+Jeff: Good thing the pandemic originated from China, so it won't last long, haha... #line:0065f5c
+Jeff: Ha... Uhm, but yeah... #line:0dc47dc
 <<make Jeff normal>>
-Jeff: I know, the pandemic takes a toll on all of us. This article needs to be finished by tomorrow but let me know if you need any support. I think...
-Jeff: Yeah, I could give Susanne parts of the article to read if that would help you.
+Jeff: I know, the pandemic takes a toll on all of us. This article needs to be finished by tomorrow but let me know if you need any support. I think... #line:05fb049
+Jeff: Yeah, I could give Susanne parts of the article to read if that would help you. #line:026eff9
 <<make Phoebe annoyed>>
-Phoebe: No need to get racist, but...
+Phoebe: No need to get racist, but... #line:0a22124
 <<make Phoebe normal>>
-Phoebe: Thanks, Jeff. That would actually be great. Your joke was still not funny though. 
-Jeff: Alright, alright. I didn't mean it like that. Take care.
+Phoebe: Thanks, Jeff. That would actually be great. Your joke was still not funny though.  #line:059fc27
+Jeff: Alright, alright. I didn't mean it like that. Take care. #line:038c6aa
 <<make Phoebe apologize>>
-Phoebe: Yeah. Bye.
+Phoebe: Yeah. Bye. #line:02b1fcd
 
 <<elseif $shy is true>>
 <<make Phoebe embarrassed>>
-Phoebe: But, yeah... It's almost done anyways, so...
-Jeff: Hm. I get this, but maybe push a little harder. 
-Phoebe: I don’t think...
+Phoebe: But, yeah... It's almost done anyways, so... #line:00dff27
+Jeff: Hm. I get this, but maybe push a little harder.  #line:070ed92
+Phoebe: I don’t think... #line:08d97d4
 <<make Phoebe annoyed>>
-Phoebe: forget it.
-Jeff: Well, I can give you until tomorrow.
+Phoebe: forget it. #line:08e7709
+Jeff: Well, I can give you until tomorrow. #line:00bb284
 <<make Jeff bossy>>
-Jeff: But I need you to organize a little better. Lately this happens more often.
-Jeff: We can’t get lazy just because we're home alone, Phoebe.
-Phoebe: Sure, Jeff. I'll send it to you tomorrow.
+Jeff: But I need you to organize a little better. Lately this happens more often. #line:0ff3719
+Jeff: We can’t get lazy just because we're home alone, Phoebe. #line:0332bc7
+Phoebe: Sure, Jeff. I'll send it to you tomorrow. #line:08b48a1
 <<make Jeff normal>>
-Jeff: Alright. Good luck! 
+Jeff: Alright. Good luck!  #line:0544b40
 
 <<else>>
 <<make Phoebe angry>>
-Phoebe: If you wouldn't constantly be bugging me about this, it might have been finished already. Alright?!
+Phoebe: If you wouldn't constantly be bugging me about this, it might have been finished already. Alright?! #line:0990b00
 <<make Jeff bossy>>
-Jeff: Ey! No need to get cocky with me.
-Jeff: You millenials always think you can just start whining and push your responsibilities onto someone else.
-Jeff: Your projects have been late for a whole month! A <i>month!</i>
-Jeff: Get your shit together, Phoebe, or your behavior will have serious consequences.
+Jeff: Ey! No need to get cocky with me. #line:0ab4a0e
+Jeff: You millenials always think you can just start whining and push your responsibilities onto someone else. #line:0ab613f
+Jeff: Your projects have been late for a whole month! A <i>month!</i> #line:0c3e313
+Jeff: Get your shit together, Phoebe, or your behavior will have serious consequences. #line:0adbab9
 <<make Phoebe annoyed>>
-Phoebe: Sure. Whatever.
+Phoebe: Sure. Whatever. #line:00e24a8
 
 <<endif>>
 
