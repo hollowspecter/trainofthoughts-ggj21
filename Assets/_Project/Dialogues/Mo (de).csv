@@ -1,12 +1,12 @@
 id,text,file,node,lineNumber
-line:062b40d,"Phoebe: Hey Mo, you little rascal.. You like chilling in the sun, don't you?",Mo,Mo.Start,13
+line:062b40d,"Phoebe: Hey Mo, du kleiner Racker.. du magst es in der Sonne zu chillen, nicht wahr?",Mo,Mo.Start,13
 line:0527f3d,Mo: Mrreeow! ^__^,Mo,Mo.Start,15
-line:0fa9f5f,"Phoebe: Yeah, I thought so.",Mo,Mo.Start,16
+line:0fa9f5f,"Phoebe: Hehe,dacht ich mir.",Mo,Mo.Start,16
 line:0fd8654,Mo: Miau. Â°_Â°,Mo,Mo.Start,18
-line:0a977b2,Phoebe: You know I'm always..always..,Mo,Mo.Start,19
+line:0a977b2,"Phoebe: Weißt du, ich bin einfach immer.. immer so..",Mo,Mo.Start,19
 line:0e4ada7,Phoebe: (mhhhhh),Mo,Mo.Start,20
 line:067ea81,ANSWER_HERE,Mo,Mo.End,41
-line:0ec8883,Mo: ..Meeow? *confused*,Mo,Mo.End,44
-line:099cc50,Phoebe: Exactly! *scratches him with a happy smile*,Mo,Mo.End,47
-line:043136f,"Phoebe: I didn't really think you'd have an idea, all good Mo..",Mo,Mo.End,49
-line:0e917eb,"Phoebe: *scratches him, smiling absently*",Mo,Mo.End,55
+line:0ec8883,Mo: ..Meeow? *verwirrt*,Mo,Mo.End,44
+line:099cc50,Phoebe: Ganz genau! *kratzt ihn mit einem glücklichen Lächeln*,Mo,Mo.End,47
+line:043136f,"Phoebe: Ich hatte auch nicht erwartet, dass du mir weiterhelfen könntest Mo, alles gut..",Mo,Mo.End,49
+line:0e917eb,Phoebe: *kratzt ihn abwesend lächelnd*,Mo,Mo.End,55
