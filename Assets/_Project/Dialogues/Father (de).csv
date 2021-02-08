@@ -1,28 +1,28 @@
 id,text,file,node,lineNumber
-line:05b26da,"*The ringtone of ""Steel Samurai"" plays loudly*",Father,Father.Start,11
-line:0a6c7cc,"Phoebe: (Yes, my ringtone is from Phoenix Wright....)",Father,Father.Start,12
-line:0afa93e,"Phoebe: (huh, my mum is calling) *picks up phone*",Father,Father.Start,15
-line:092dd42,"Mom: Phoebe dear, glad I got through to you. I called you four times already!",Father,Father.Start,17
+line:05b26da,"*Der Klingelton von ""Steel Samurai"" ertönt laut*",Father,Father.Start,11
+line:0a6c7cc,"Phoebe: (Ja, mein Klingelton ist von Phoenix Wright.…)",Father,Father.Start,12
+line:0afa93e,"Phoebe: (huh, meine Mum ruft an) *geht ans Handy*",Father,Father.Start,15
+line:092dd42,"Mom: Phoebe, Liebes, endlich komm ich mal durch. Ich hab dich schon viermal angerufen!",Father,Father.Start,17
 line:07d99d7,Phoebe: Mom..hey.,Father,Father.Start,18
 line:007b0d3,ANSWER_HERE,Father,Father.Middle,40
-line:049d55a,Phoebe: What's up?,Father,Father.Middle,41
-line:047b336,"Mom: Oh I'm fine dear, just fine. You know that I'm staying out of trouble for the time being.",Father,Father.Middle,44
-line:03e417d,Mom: I wanted to ask if you called your dad yet?,Father,Father.Middle,47
-line:05d74dd,"Phoebe: Why would I want to call him, mom?",Father,Father.Middle,49
-line:0844977,"Mom: Well, first of all, he is still your father, Phoebe!",Father,Father.Middle,50
-line:02c551f,"Mom: Second, he sent you quite a sum for your birthday, and it's ungrateful to not acknowledge that.",Father,Father.Middle,51
-line:006d4b1,Phoebe: Of course he told you already. I still don't get why you are even keeping in touch with him that much.,Father,Father.Middle,52
-line:05b2851,"Mom: As I told you, he is your father.. We don't talk much, but when we do, it's mostly about you. We care about you, Phoebe.",Father,Father.Middle,53
-line:07f5c05,Phoebe: Mom.. just..,Father,Father.Middle,55
-line:0e1b9e8,Phoebe: (ugh. the fuck mom.),Father,Father.Middle,56
+line:049d55a,Phoebe: Wie geht’s?,Father,Father.Middle,41
+line:047b336,"Mom: Oh, mir geht es gut, Liebes, alles gut. Du weißt, dass ich mich in aktuell aus allem Ärger heraushalte.",Father,Father.Middle,44
+line:03e417d,Mom: Ich wollte fragen ob du dich schon bei deinem Vater gemeldet hast?,Father,Father.Middle,47
+line:05d74dd,"Phoebe: Warum sollte ich mich bei ihm melden, Mom?",Father,Father.Middle,49
+line:0844977,"Mom: Nun, zunächst einmal ist er immer noch dein Vater, Phoebe!",Father,Father.Middle,50
+line:02c551f,"Mom: Zweitens hat er dir eine ziemliche Summe zu deinem Geburtstag geschickt, und es ist undankbar, das nicht anzuerkennen.",Father,Father.Middle,51
+line:006d4b1,"Phoebe: Natürlich hat er es dir schon erzählt. Ich verstehe immer noch nicht, warum du überhaupt noch so viel Kontakt zu ihm hast.",Father,Father.Middle,52
+line:05b2851,"Mom: Wie ich dir schon sagte, er ist dein Vater... Wir reden nicht viel, aber wenn wir es tun, dann geht es meistens um dich. Wir sorgen uns um dich, Phoebe.",Father,Father.Middle,53
+line:07f5c05,Phoebe: Mom.. ,Father,Father.Middle,55
+line:0e1b9e8,Phoebe: (ugh. Verdammt Mom,Father,Father.Middle,56
 line:0e5e383,Phoebe: (...),Father,Father.Middle,57
 line:004fc06,ANSWER_HERE,Father,Father.End,89
-line:0c37dec,"Phoebe: Mom, I have to go. Goodbye.",Father,Father.End,91
+line:0c37dec,"Phoebe: Mom, ich muss leider auflegen. Mach’s gut.",Father,Father.End,91
 line:098add0,*beep*,Father,Father.End,92
 line:033d74e,Phoebe: (..........),Father,Father.End,97
 line:0226030,Phoebe: *beep boop beep tippy tappy*,Father,Father.End,100
-line:07ba7fe,"Phoebe: ""Hey.. thank you for your present the other day. It really helps. Hope you're fine Dad, Phoebe.""",Father,Father.End,101
+line:07ba7fe,"Phoebe: ""Hey... danke für dein Geschenk neulich. Es hilft wirklich. Hoffe es geht dir gut, Dad, Phoebe.""",Father,Father.End,101
 line:0a1aa16,Phoebe: *beep boop beep tippy tappy*,Father,Father.End,103
-line:021efb0,"Phoebe: ""Thanks for the money, Phoebe.""",Father,Father.End,104
+line:021efb0,"Phoebe: ""Danke für das Geld, Dad. Phoebe.""",Father,Father.End,104
 line:0f00202,Phoebe: pff,Father,Father.End,106
-line:07939ca,Phoebe: *puts phone away*,Father,Father.End,107
+line:07939ca,Phoebe: *legt das Handy weg*,Father,Father.End,107

@@ -2,9 +2,9 @@ id,text,file,node,lineNumber
 line:047081e,"*Die Haustür öffnet sich, Lucy kommt nach Hause*",Break,Break.Start,9
 line:08e5ad9,Lucy: Hallo mein kleiner Pinguin!,Break,Break.Start,14
 line:013af98,Lucy: Bin zuhause!,Break,Break.Start,15
-line:016b83b,Lucy: How have you been?,Break,Break.Start,19
+line:016b83b,Lucy: Wie war dein Tag?,Break,Break.Start,19
 line:0b62ac8,Phoebe: Beschissen.,Break,Break.Start,21
-line:04208f0,"Lucy: Oh, Widdle Waddl, brauchst du ein paar Kuscheleinheiten?",Break,Break.Start,23
+line:04208f0,"Lucy: Oh, Widdl Waddl, brauchst du ein paar Kuscheleinheiten?",Break,Break.Start,23
 line:0279149,"Phoebe: Nein, lass das!",Break,Break.Start,25
 line:0db76bd,Phoebe: Ich bin grad echt nicht in Stimmung dafür!,Break,Break.Start,26
 line:08cd430,"Lucy: Okay, sorry. Ich wollte nur, dass du dich besser fühlst.",Break,Break.Start,28
@@ -12,83 +12,83 @@ line:0694ba0,Mo: Mau!,Break,Break.Start,32
 line:0bbc15c,Lucy: Hey du kleiner Kater.,Break,Break.Start,34
 line:09fcc5c,Lucy: Hast du Mo schon gefüttert?,Break,Break.Start,35
 line:0aa17c2,Phoebe: Kannst du auch mal ruhig sein/die Klappe halten?,Break,Break.Start,37
-line:0772976,Phoebe: Why does everyone always want me to do some stupid shit for them?,Break,Break.Start,38
+line:0772976,"Phoebe: Warum wollen immer alle, dass ich irgendeinen blöden Scheiß für sie mache?",Break,Break.Start,38
 line:04d4938,Phoebe: Wieso kannst du mich nicht einfach mal allein lassen?,Break,Break.Start,39
 line:0d46fa5,Phoebe: Ich brauch einfach einen Moment zum Durchatmen.,Break,Break.Start,41
-line:0bb1dbc,Phoebe: Just give me some fucking space!,Break,Break.Start,43
-line:0caa2e7,Lucy: Phoebsâ€¦,Break,Break.Start,45
-line:05e2318,Lucy: I didnâ€™t want toâ€¦,Break,Break.Start,46
-line:0b0605d,Phoebe: Yeah.,Break,Break.Start,48
-line:0147f7f,Phoebe: But the problem is that you <i>do</i>.,Break,Break.Start,50
+line:0bb1dbc,"Phoebe: Lass mir einfach etwas Freiraum, verdammt!",Break,Break.Start,43
+line:0caa2e7,Lucy: Phoebs¦,Break,Break.Start,45
+line:05e2318,Lucy: Ich wollte dich nicht bedrängen..,Break,Break.Start,46
+line:0b0605d,Phoebe: Ja..,Break,Break.Start,48
+line:0147f7f,"Phoebe: Aber das Problem ist, dass du <i>es tust</i>.",Break,Break.Start,50
 line:05708d8,Phoebe: (...),Break,Break.Start,51
 line:00aadf3,Lucy: (...),Break,Break.Start,52
 line:00563d6,Phoebe: (............),Break,Break.Start,54
 line:0059eea,ANSWER_HERE,Break,Break.Middle,82
-line:093be0d,"Phoebe: Please, just give me like 20 minutes to calm down.",Break,Break.Middle,86
-line:0860d1b,"Phoebe: I love you, Lucy, itâ€™s just a lot right now.",Break,Break.Middle,87
+line:093be0d,"Phoebe: Bitte, gib mir einfach 20 Minuten, um etwas runterzukommen..",Break,Break.Middle,86
+line:0860d1b,"Phoebe: Ich liebe dich, Lucy. Es ist einfach.. alles ein bisschen zu viel momentan.",Break,Break.Middle,87
 line:049804e,Lucy: Okay.,Break,Break.Middle,89
-line:0fb8aa4,Lucy: Itâ€™s okay.,Break,Break.Middle,90
-line:04e6b19,Lucy: I get you.,Break,Break.Middle,91
-line:03daf72,Lucy: Letâ€™s talk whenever you are ready.,Break,Break.Middle,92
-line:02430db,"Phoebe: I love you, otter.",Break,Break.Middle,93
-line:0130549,Lucy: I love you too.,Break,Break.Middle,94
-line:004148b,Lucy: Tea?,Break,Break.Middle,95
-line:00273ff,Phoebe: That would be awesome.,Break,Break.Middle,97
-line:076a6d8,Phoebe: Thank you.,Break,Break.Middle,98
-line:03c0fa4,"Phoebe: Just leave me alone, Lucy.",Break,Break.Middle,102
+line:0fb8aa4,Lucy: Es ist okay.,Break,Break.Middle,90
+line:04e6b19,Lucy: Ich verstehe dich.,Break,Break.Middle,91
+line:03daf72,"Lucy: Lass uns reden, wenn du bereit bist.",Break,Break.Middle,92
+line:02430db,"Phoebe: Ich liebe dich, Otter.",Break,Break.Middle,93
+line:0130549,Lucy: Ich liebe dich auch.,Break,Break.Middle,94
+line:004148b,Lucy: Tee?,Break,Break.Middle,95
+line:00273ff,Phoebe: Das wäre fantastisch.,Break,Break.Middle,97
+line:076a6d8,Phoebe: Danke dir.,Break,Break.Middle,98
+line:03c0fa4,"Phoebe: Lass mich einfach in Ruhe, Lucy.",Break,Break.Middle,102
 line:017276b,Lucy: ...,Break,Break.Middle,104
-line:0c4e5b1,Lucy: You can be so stubborn.,Break,Break.Middle,106
-line:0921222,Lucy: Maybe just talk to me?,Break,Break.Middle,107
-line:0565991,"Lucy: I donâ€™t expect you to be a poet, but... donâ€™t shut me out like this.",Break,Break.Middle,108
+line:0c4e5b1,Lucy: Du kannst so stur sein..,Break,Break.Middle,106
+line:0921222,Lucy: Vielleicht redest du einfach mal mit mir?,Break,Break.Middle,107
+line:0565991,"Lucy: Ich erwarte nicht, dass du ein Dichter bist/eine Rede hälst, aber... schließe mich nicht so aus.",Break,Break.Middle,108
 line:0eb6eac,Phoebe: ...,Break,Break.Middle,110
-line:0d2b680,Lucy: Iâ€™ll make some tea.,Break,Break.Middle,111
-line:0ca51c1,"Lucy: Join me, when you feel ready.",Break,Break.Middle,112
-line:091feb4,Phoebe: And you never think about me and what I want!,Break,Break.Middle,116
-line:07cf9de,"Phoebe: Get out of my office, Lucy!",Break,Break.Middle,117
-line:00c1975,Lucy: What?!,Break,Break.Middle,119
-line:056523a,Lucy: I'm just trying to help!,Break,Break.Middle,120
-line:09c04b4,"Phoebe: Yeah, well, you are not!",Break,Break.Middle,122
-line:0e8dfa2,Lucy: Do you think it's fun to always see you struggling?,Break,Break.Middle,124
-line:046da8d,Lucy: To see how you let yourself down?,Break,Break.Middle,125
-line:02c7f60,Lucy: I'm trying so hard to make you feel better and all I get is this angry frustration.,Break,Break.Middle,126
-line:05ab96d,"Lucy: I deserve better, Phoebe!",Break,Break.Middle,127
-line:06f9c4f,Lucy: You deserve better!,Break,Break.Middle,128
+line:0d2b680,Lucy: Ich setze Tee auf.,Break,Break.Middle,111
+line:0ca51c1,"Lucy: Komm einfach dazu, wenn du dich bereit fühlst.",Break,Break.Middle,112
+line:091feb4,Phoebe: Und du denkst nie an mich und was ich will!,Break,Break.Middle,116
+line:07cf9de,"Phoebe: Raus aus meinem Büro, Lucy!",Break,Break.Middle,117
+line:00c1975,Lucy: Was?!,Break,Break.Middle,119
+line:056523a,Lucy: Ich versuche nur dir zu helfen!,Break,Break.Middle,120
+line:09c04b4,"Phoebe: Ja, aber, das tust du nicht!",Break,Break.Middle,122
+line:0e8dfa2,Lucy: Glaubst du es macht mir Spaß dir zuzugucken wie du dich quälst?,Break,Break.Middle,124
+line:046da8d,Lucy: Zu sehen wie du dich selbst runtermachst?,Break,Break.Middle,125
+line:02c7f60,"Lucy: Ich versuche so sehr, dir zu helfen, und alles, was ich bekomme, ist diese wütende Frustration.",Break,Break.Middle,126
+line:05ab96d,"Lucy: Das hab ich nicht verdient, Phoebe!",Break,Break.Middle,127
+line:06f9c4f,Lucy: Das hast du nicht verdient!,Break,Break.Middle,128
 line:068ff41,Phoebe: ...,Break,Break.Middle,130
-line:0efff45,"... a little later, in the living room...",Break,Break.Middle,142
+line:0efff45,"... etwas später, im Wohnzimmer…",Break,Break.Middle,142
 line:083ace5,Phoebe: Hey...,Break,Break.Middle,149
 line:00e4bc2,Lucy: Hey.,Break,Break.Middle,151
-line:0111950,Lucy: Sit with me.,Break,Break.Middle,153
-line:0226cbb,Lucy: Get some tea.,Break,Break.Middle,154
-line:0bbfbd4,"Phoebe: Lucy, I'm so sorry.",Break,Break.Middle,155
-line:0de10fa,Lucy: It's okay.,Break,Break.Middle,156
-line:0dfec18,"Phoebe: No, it's not.",Break,Break.Middle,157
-line:03e6917,"Phoebe: Please, listen.",Break,Break.Middle,159
-line:02b9c2e,Phoebe: I know you always want the best for me and I know you care. But sometimes...,Break,Break.Middle,160
-line:0979081,Phoebe: Sometimes it feels like everything is too much.,Break,Break.Middle,161
-line:08cc713,Phoebe: Not you!,Break,Break.Middle,162
-line:0a60336,Phoebe: Just... everything.,Break,Break.Middle,164
-line:074b577,Phoebe: And I feel so stupid about it. I feel like it should be easy. Like everyone is succeeding at life but me.,Break,Break.Middle,166
-line:0d6a25f,"Phoebe: But I can't. I'm just sitting around, fumbling for the right words.",Break,Break.Middle,168
-line:0986000,Phoebe: I...,Break,Break.Middle,169
-line:0a3f650,Lucy: Come here.,Break,Break.Middle,171
-line:005bd35,Phoebe: I don't want to be a burden to you.,Break,Break.Middle,173
-line:0cc10f5,Lucy: You are not! Don't think that!,Break,Break.Middle,175
-line:05a06cb,Lucy: I just want to understand what's going on.,Break,Break.Middle,176
-line:02910d2,Lucy: And I'm okay if you need some time to figure things out.,Break,Break.Middle,178
-line:0845258,Lucy: But I want to be there. Even if you only need a hot beverage and maybe a cuddle.,Break,Break.Middle,179
+line:0111950,Lucy: Setz dich zu mir.,Break,Break.Middle,153
+line:0226cbb,"Lucy: Hier, dein Tee.",Break,Break.Middle,154
+line:0bbfbd4,"Phoebe: Lucy, es tut mir Leid.",Break,Break.Middle,155
+line:0de10fa,Lucy: Es ist okay.,Break,Break.Middle,156
+line:0dfec18,"Phoebe: Nein, ist es nicht.",Break,Break.Middle,157
+line:03e6917,"Phoebe: Bitte, hör mir zu.",Break,Break.Middle,159
+line:02b9c2e,"Phoebe: Ich weiß, dass du nur das Beste für mich willst und ich weiß, dass du dich sorgst. Aber manchmal…",Break,Break.Middle,160
+line:0979081,"Phoebe: Manchmal fühlt es sich so an, als ob alles zu viel wäre.",Break,Break.Middle,161
+line:08cc713,Phoebe: Nicht du!,Break,Break.Middle,162
+line:0a60336,Phoebe: Einfach… alles.,Break,Break.Middle,164
+line:074b577,"Phoebe: Und ich komme mir so dumm dabei vor. Ich fühle mich, als müsste alles viel einfacher sein. Als ob jeder im Leben Erfolg hätte, nur ich nicht.",Break,Break.Middle,166
+line:0d6a25f,Phoebe: Aber ich kann nicht. Ich sitze nur herum und ringe nach den richtigen Worten.,Break,Break.Middle,168
+line:0986000,Phoebe: Ich…,Break,Break.Middle,169
+line:0a3f650,Lucy: Komm her zu mir.,Break,Break.Middle,171
+line:005bd35,Phoebe: Ich möchte keine Belastung für dich sein!,Break,Break.Middle,173
+line:0cc10f5,Lucy: Das bist du nicht! Du musst nicht so denken.,Break,Break.Middle,175
+line:05a06cb,"Lucy: Ich möchte nur verstehen, was in dir vorgeht.",Break,Break.Middle,176
+line:02910d2,"Lucy: Und es ist okay für mich, wenn du etwas Zeit brauchst, um dir über Dinge klar zu werden.",Break,Break.Middle,178
+line:0845258,"Lucy: Aber ich will dabei sein. Auch wenn das nur heißt, dass du ein heißes Getränk und vielleicht eine Umarmung brauchst.",Break,Break.Middle,179
 line:0405c31,ANSWER_HERE,Break,Break.End,206
-line:0736522,Lucy: Sure. That's all I want.,Break,Break.End,210
-line:088a50c,Phoebe: But...,Break,Break.End,212
-line:087a497,"Phoebe: Don't get me wrong, Lucy. But I also need you to step down a little when I'm feeling bad.",Break,Break.End,213
-line:02fbae1,Phoebe: I know you just want to help. And I love that.,Break,Break.End,214
-line:0ad7b9a,Phoebe: But that's not how it works for me.,Break,Break.End,215
-line:012ab02,Lucy: I see.,Break,Break.End,217
-line:007908c,"Lucy: So, how can I help you?",Break,Break.End,219
-line:0113011,Phoebe: I don't know.,Break,Break.End,220
-line:0c9776d,Phoebe: I'm sorry I can't give you an answer. I don't know if I'll ever have one.,Break,Break.End,221
-line:0a368f9,Phoebe: But maybe you can help me with that.,Break,Break.End,222
-line:09b1549,Lucy: I'd like that.,Break,Break.End,223
-line:01274b9,"Lucy: As long as you let me know what you feel, I can handle it, you know? Even if you feel like being alone.",Break,Break.End,225
+line:0736522,Lucy: Klar. Mehr will ich auch gar nicht.,Break,Break.End,210
+line:088a50c,Phoebe: Aber…,Break,Break.End,212
+line:087a497,"Phoebe: Versteh mich nicht falsch, Lucy. Aber du musst dich auch ein bisschen zurücknehmen, wenn es mir schlecht geht.",Break,Break.End,213
+line:02fbae1,"Phoebe: Ich weiß, dass du nur helfen willst. Und das liebe ich.",Break,Break.End,214
+line:0ad7b9a,Phoebe: Aber das funktioniert bei mir nicht wirklich.,Break,Break.End,215
+line:012ab02,Lucy: Ich verstehe.,Break,Break.End,217
+line:007908c,"Lucy: Also, wie kann ich dir helfen?",Break,Break.End,219
+line:0113011,Phoebe: Ich weiß nicht.,Break,Break.End,220
+line:0c9776d,"Phoebe: Es tut mir leid, dass ich dir keine Antwort geben kann. Ich weiß nicht, ob ich jemals eine haben werde.",Break,Break.End,221
+line:0a368f9,Phoebe: Aber vielleicht Kannst du mir dabei helfen.,Break,Break.End,222
+line:09b1549,Lucy: Das würde ich sehr gerne.,Break,Break.End,223
+line:01274b9,"Lucy: Solange du mich wissen lässt, was du fühlst, kann ich damit umgehen, weißt du? Selbst wenn du dich allein fühlen solltest.",Break,Break.End,225
 line:0f2f9f2,Lucy: I like you when you're happy and I like you when you're struggling.,Break,Break.End,226
 line:02dc3e2,"Lucy: I love you, penguin.",Break,Break.End,228
 line:0060e1b,Lucy: What do you mean?,Break,Break.End,233
